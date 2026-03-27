@@ -1,0 +1,140 @@
+form.wooReturn {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 20px auto;
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.wooReturn .griDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    margin-bottom: 20px;
+}
+
+.wooReturn .griDiv div {
+    display: flex;
+    flex-direction: column;
+}
+
+.griDiv textarea {
+    width: initial !important;
+    overflow: hidden;
+}
+
+.griDiv label {
+    margin-top: 5px;
+}
+
+body.return-form p.woocommerce-info,
+body.formularz-zwrotu p.woocommerce-info {
+    max-width: 800px;
+    margin: 20px auto !important;
+}
+
+.entry-summary .woocommerce-info.zwrot {
+    display: block !important;
+}
+
+/* Hide .zwrot notices by default (e.g. in global WC context) */
+.woocommerce-info.zwrot {
+    display: none;
+}
+
+/* Always show messages inside the return form status container */
+#return-form-status .woocommerce-info,
+#return-form-status .woocommerce-error,
+#return-form-status p {
+    display: block !important;
+    max-width: 800px;
+    margin: 0 auto 15px !important;
+}
+
+form.wooReturn.selection input#bank_account {
+    margin-bottom: 10px !important;
+}
+
+p.returnInfo {
+    text-align: center;
+}
+
+label.productOptionToReturn {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #ffffff14;
+}
+
+label.productOptionToReturn input[type="checkbox"] {
+    margin: 0;
+    margin-right: 10px !important;
+    height: 15px;
+    width: 15px;
+}
+
+label.productOptionToReturn span {
+    padding-top: 2px;
+}
+
+p.woocommerce-error.zwrot {
+    max-width: 800px;
+    margin: 0 auto !important;
+}
+
+/* Classes replacing removed inline styles (Phase 4) */
+.woo-return-submit {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.woo-return-turnstile {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.woo-return-submit-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.woo-return-submit-btn {
+    height: 65px;
+}
+
+.woo-return-items-fieldset {
+    border: none;
+    padding: 0;
+    margin: 0 0 16px;
+}
+
+.woo-return-items-fieldset legend {
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.woo-return-field-error {
+    color: #c00;
+    font-size: 0.9em;
+    margin-top: 4px;
+}
+
+#return-form-status:empty {
+    display: none;
+}
+
+.woocommerce-button.button.woo-return {
+    margin-left: 4px;
+}
+
+#bank-account-hint {
+    font-size: small;
+}

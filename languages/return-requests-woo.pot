@@ -1,0 +1,1391 @@
+# Copyright (C) 2026 Jakub Misiak
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Return Requests for WooCommerce 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/return-requests-woo\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-03-24T04:14:43+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: return-requests-woo\n"
+
+#. Plugin Name of the plugin
+#: return-requests-woo.php
+msgid "Return Requests for WooCommerce"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: return-requests-woo.php
+msgid "https://github.com/jakubmisiak/return-requests-woo"
+msgstr ""
+
+#. Description of the plugin
+#: return-requests-woo.php
+msgid "Comprehensive return management system for WooCommerce. Registers return requests, allows customers to select products and generates PDF with details."
+msgstr ""
+
+#. Author of the plugin
+#: return-requests-woo.php
+msgid "Jakub Misiak"
+msgstr ""
+
+#. Author URI of the plugin
+#: return-requests-woo.php
+msgid "https://buymeacoffee.com/jakubmisiak"
+msgstr ""
+
+#: includes/admin-menu.php:12
+#: includes/admin-menu.php:13
+msgid "Return Requests"
+msgstr ""
+
+#: includes/admin-menu.php:24
+#: includes/admin-menu.php:25
+msgid "All returns"
+msgstr ""
+
+#: includes/admin-menu.php:34
+#: includes/admin-menu.php:35
+msgid "Settings"
+msgstr ""
+
+#. translators: %s: status name
+#: includes/admin-pages/list-returns.php:34
+#, php-format
+msgid "Return status changed to %s via Return Requests list."
+msgstr ""
+
+#: includes/admin-pages/list-returns.php:56
+msgid "ID"
+msgstr ""
+
+#: includes/admin-pages/list-returns.php:57
+msgid "Order"
+msgstr ""
+
+#: includes/admin-pages/list-returns.php:58
+msgid "Customer"
+msgstr ""
+
+#: includes/admin-pages/list-returns.php:59
+msgid "Email"
+msgstr ""
+
+#: includes/admin-pages/list-returns.php:60
+msgid "Bank account"
+msgstr ""
+
+#: includes/admin-pages/list-returns.php:61
+msgid "Date"
+msgstr ""
+
+#: includes/admin-pages/list-returns.php:62
+msgid "Status"
+msgstr ""
+
+#: includes/admin-pages/list-returns.php:63
+msgid "Actions"
+msgstr ""
+
+#: includes/admin-pages/list-returns.php:86
+#: includes/order-integration.php:55
+msgid "Completed"
+msgstr ""
+
+#: includes/admin-pages/list-returns.php:87
+#: includes/order-integration.php:56
+msgid "Issue"
+msgstr ""
+
+#: includes/admin-pages/list-returns.php:88
+#: includes/order-integration.php:54
+msgid "Pending"
+msgstr ""
+
+#: includes/admin-pages/list-returns.php:109
+msgid "Details"
+msgstr ""
+
+#: includes/admin-pages/list-returns.php:121
+msgid "Mark as completed"
+msgstr ""
+
+#: includes/admin-pages/list-returns.php:126
+msgid "Mark as issue"
+msgstr ""
+
+#: includes/admin-pages/list-returns.php:135
+msgid "No returns."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:22
+msgid "Records older than a year have been deleted."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:31
+msgid "All records have been deleted."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:33
+msgid "You must type \"confirm\" to delete all records."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:45
+msgid "Pages settings saved."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:53
+msgid "All required pages already exist."
+msgstr ""
+
+#. translators: %s: comma-separated list of created page titles
+#: includes/admin-pages/main-page.php:57
+#, php-format
+msgid "The following pages were created: %s."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:76
+msgid "Email settings saved."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:86
+msgid "Law compliance settings saved."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:101
+msgid "Return Requests WooCommerce"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:102
+msgid "This plugin enables return management in WooCommerce."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:105
+msgid "Information"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:106
+msgid "Pages"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:107
+#: includes/admin-pages/main-page.php:305
+msgid "Email settings"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:108
+msgid "Security"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:109
+#: includes/admin-pages/main-page.php:176
+#: includes/admin-pages/main-page.php:464
+msgid "Law Compliance"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:110
+msgid "Data management"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:111
+#: includes/admin-pages/main-page.php:164
+msgid "How does it work?"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:117
+msgid "Return System Status"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:125
+#: return-requests-woo.php:84
+msgid "Active"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:125
+#: return-requests-woo.php:85
+msgid "Disabled"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:129
+msgid "When disabled, frontend return forms will be visually disabled, the My Account return button will vanish, and backend processing will be entirely rejected. Existing shortcodes will still render."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:134
+msgid "Plugin operation description"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:136
+msgid "The \"Return Requests WooCommerce\" plugin allows customers to submit order return requests in the online store. Guest users can use a form followed by email verification, while logged-in customers can submit returns directly from the \"My Account\" panel. The plugin generates a PDF file with return information and emails it to both the store administrator and the customer. Optional Cloudflare Turnstile protection is implemented to prevent SPAM."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:141
+msgid "Required plugins"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:145
+msgid "Required for managing orders and customers."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:151
+msgid "Support Return Requests"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:153
+msgid "I created Return Requests to give the WordPress community a truly free, native, and bloat-free return management solution. If this plugin saves you time or money, please consider buying me a coffee! It directly helps me maintain the project and develop new features."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:156
+msgid "Buy me a coffee"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:165
+msgid "This plugin provides a comprehensive native return management workflow for WooCommerce, securely handling returns from both authenticated users and guests."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:169
+msgid "1. Configuration and Initialization"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:171
+msgid "System Status"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:171
+msgid "You can disable the system using the toggle in the Information tab while you configure the plugin, and re-enable it when you are ready to launch."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:173
+msgid "Automated Pages"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:173
+msgid "By clicking \"Check and Create Required Pages\" in the Pages tab, three routing pages are automatically created using shortcodes (Return Form, Select Return Items, Return Confirmation)."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:174
+msgid "Tip: These automatically created pages are fully customizable. The generated shortcode must remain on the page, but you can add your own content below or above it as needed."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:176
+msgid "In the Law Compliance tab, you can select your store's legal region to automatically display the correct consumer protection act disclaimer during the return process. You can also write your own custom legal disclaimer."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:179
+msgid "Localization & Translation"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:181
+msgid "This plugin is fully translatable on both the frontend and backend. English is the default base language, but Polish (pl_PL) is 100% pre-built out-of-the-box. The plugin automatically grabs your active WordPress language setting to display the proper language if translations exist. Missing translations can be easily added using standard translation plugins like Open World or Loco Translate."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:184
+msgid "2. The Flow for Logged-In Customers"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:186
+msgid "A logged-in user visits their \"My Account\" dashboard and navigates to \"Orders\"."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:187
+msgid "If an order has the status \"Completed\" and falls within the statutory return window, a \"Return\" button natively appears next to the order."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:188
+msgid "Once clicked, the plugin generates a secure session token directly on the server without needing an email verification step (since the user identity is already verified by WordPress)."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:189
+msgid "The user is instantly redirected to the Select Return Items page with their authenticated session active."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:192
+msgid "3. The Flow for Guest Customers (Unregistered)"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:194
+msgid "A guest user visits the Return Form page."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:195
+msgid "They input their Order Number and the Billing Email Address associated with that order."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:196
+msgid "The plugin cross-references the database and generates a cryptographically secure 1-hour Return Token tying their request to that specific order."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:197
+msgid "An automated email is dispatched to the user containing a one-time verification link."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:198
+msgid "Upon clicking the link, the user's browser establishes an authenticated system session using the token, proving they own the email address. They are then securely redirected to the Select Return Items page."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:201
+msgid "4. Form Submission and PDF Generation"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:203
+msgid "Once the user reaches the Select Return Items page, they select the exact items they wish to return and input their bank account number."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:204
+msgid "Optionally, a Cloudflare Turnstile gateway protects the form from automated abuse."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:205
+msgid "Upon clicking \"Return Selected Items\", the request is officially recorded in the custom database table."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:206
+msgid "The generative engine constructs a Goods Return Protocol PDF, filling it automatically with the store's details, the customer's billing address, and a compliance declaration."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:207
+msgid "The PDF is saved securely to the server."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:208
+msgid "Two automated emails are dispatched: A confirmation to the Customer including the attached PDF, and a notification to the Administrator containing the same attached PDF."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:209
+msgid "The customer's secure session is flushed and they land on the final Confirmation page."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:212
+msgid "5. Email Notifications Overview"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:214
+msgid "Verification Email (Guest only):"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:214
+msgid "Sent immediately after a guest submits the initial Return Form to verify their identity via a secure link. E-mail in form needs to match order billing e-mail."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:215
+msgid "Customer Confirmation:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:215
+msgid "Sent after successfully selecting items and generating the Return Protocol PDF. Contains the PDF as an attachment."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:216
+msgid "Administrator Notification:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:216
+msgid "Sent simultaneously to the store owner alerting them of the return, with the Return Protocol PDF attached."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:219
+msgid "6. Return Status Management and Order Integration"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:221
+msgid "Return List Backend:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:221
+msgid "All returns arrive with a \"Pending\" status in the main plugin table. Administrators can use quick action buttons to mark a return as \"Completed\" or flag it as an \"Issue\"."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:222
+msgid "WooCommerce Order Meta Box:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:222
+msgid "When viewing a specific order from the WooCommerce interface, a dedicated Meta Box will surface the associated Return. Store owners can alter the status from here natively."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:223
+msgid "Issue Resolution Notes:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:223
+msgid "If a return is flagged as an \"Issue\" through the Order Meta Box, an optional explanation box appears. Submitting an explanation dynamically saves it as a Customer Order Note, updating the buyer automatically via WooCommerce's built-in email alerts."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:231
+msgid "Plugin pages settings"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:232
+msgid "Specify the page slugs used by the plugin. Do not change shortcodes on these pages."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:238
+msgid "Return form slug:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:242
+msgid "URL slug for page with [return_form] shortcode. Default: return-form"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:246
+msgid "Item selection slug:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:250
+msgid "URL slug for page with [return_items_form] shortcode. Default: select-return-items"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:254
+msgid "Return confirmation slug:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:258
+msgid "URL slug for page with [return_confirmation] shortcode. Default: return-confirmed"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:262
+msgid "Return time window (days):"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:266
+msgid "Number of days from the date the order was completed within which the customer can submit a return request. Default: 14 days."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:270
+msgid "Bank account number format:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:273
+msgid "Polish (26 digits)"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:274
+msgid "IBAN (International)"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:275
+msgid "Disabled (no validation)"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:277
+msgid "Defines how the bank account number provided by the customer is verified."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:283
+msgid "Save pages settings"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:289
+msgid "Create required pages"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:290
+msgid "Click the button below to check if required pages exist and recreate them if necessary."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:295
+msgid "Check and create required pages"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:307
+msgid "Note:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:307
+msgid "The overall layout and styling of these emails are natively managed by WooCommerce to match your store's theme. You only control the text contents here."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:313
+msgid "Administrator email:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:317
+msgid "Enter administrator email"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:318
+msgid "This address receives a copy of every return request with an attached PDF."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:322
+msgid "Sender email:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:326
+msgid "Enter sender email"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:327
+msgid "Sender address. It must be authenticated by your Mail/SMTP server to avoid spam filters."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:331
+msgid "Email sender name:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:335
+msgid "e.g. Company / Name"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:336
+msgid "Display name in email client (e.g. \"My Store Returns\")."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:340
+msgid "Contact email address:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:344
+msgid "e.g. contact@yourdomain.com"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:345
+msgid "Shown to customers in the return form as a contact address."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:352
+msgid "Email for customer"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:355
+#: includes/admin-pages/main-page.php:377
+msgid "Title:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:359
+msgid "Email title for customer"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:360
+#: includes/admin-pages/main-page.php:367
+#: includes/admin-pages/main-page.php:382
+#: includes/admin-pages/main-page.php:389
+msgid "Use {order_id} as a placeholder for order number."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:364
+#: includes/admin-pages/main-page.php:386
+msgid "Content:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:374
+msgid "Email for administrator"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:381
+msgid "Email title for administrator"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:396
+msgid "PDF generation data:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:399
+#: includes/pdf-generator.php:155
+msgid "Store details:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:400
+msgid "e.g. Store Name&#10;Street 123&#10;00-000 City&#10;Phone number"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:405
+msgid "Save settings"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:414
+msgid "Cloudflare Turnstile (SPAM Protection)"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:426
+msgid "Cloudflare Turnstile settings saved."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:436
+msgid "Enable Turnstile"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:440
+msgid "Site Key:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:444
+msgid "Secret Key:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:450
+msgid "Save Turnstile settings"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:452
+msgid "Learn more about Cloudflare Turnstile"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:473
+msgid "Compliance Region:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:476
+msgid "EU + EEA"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:477
+msgid "Poland"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:478
+msgid "United Kingdom"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:479
+msgid "Switzerland"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:480
+msgid "Turkey"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:481
+msgid "Ukraine / Moldova"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:482
+msgid "USA"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:483
+msgid "Canada"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:484
+msgid "Australia / New Zealand"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:485
+msgid "Brazil"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:486
+msgid "Custom"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:488
+msgid "Select the appropriate legal framework for the return disclaimer. Based on your selection, specific regulations and return time windows will be shown to users."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:492
+msgid "Custom Disclaimer:"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:495
+msgid "Enter your custom legal disclaimer. HTML tags are allowed."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:499
+msgid "Is your store compliant with GDPR regulations?"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:503
+msgid "If checked, the return form will explicitly state that personal data processing complies with GDPR regulations."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:525
+msgid "Save compliance settings"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:534
+msgid "Delete returns"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:535
+msgid "Warning: Deleted data cannot be restored."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:541
+msgid "Delete old returns"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:543
+msgid "Delete records older than a year"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:544
+msgid "Deletes all return records older than a year."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:548
+msgid "Delete all returns"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:550
+msgid "Type \"confirm\""
+msgstr ""
+
+#: includes/admin-pages/main-page.php:551
+msgid "Empty returns list"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:552
+msgid "Deletes all return records from the database."
+msgstr ""
+
+#: includes/admin-pages/main-page.php:567
+#: includes/form-handler.php:54
+msgid "Return Form"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:571
+#: includes/form-handler.php:554
+msgid "Product Selection Form for Return"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:575
+#: includes/form-handler.php:966
+msgid "Return registered"
+msgstr ""
+
+#: includes/email-sender.php:52
+msgid "This message was generated automatically. Please do not reply."
+msgstr ""
+
+#: includes/email-sender.php:53
+msgid "All rights reserved."
+msgstr ""
+
+#: includes/email-sender.php:98
+msgid "Return for order #{order_id}"
+msgstr ""
+
+#: includes/email-sender.php:101
+msgid "New return for order #{order_id}"
+msgstr ""
+
+#: includes/email-sender.php:104
+msgid "Your return for order #{order_id} has been registered."
+msgstr ""
+
+#: includes/email-sender.php:107
+msgid "Return for order #{order_id} has been submitted."
+msgstr ""
+
+#: includes/email-sender.php:120
+#: includes/email-sender.php:125
+msgid "Detailed information can be found in the attached PDF file."
+msgstr ""
+
+#: includes/email-sender.php:121
+msgid "Thank you for using our services."
+msgstr ""
+
+#: includes/form-handler.php:16
+#: includes/form-handler.php:395
+msgid "The return system is currently disabled. Please try again later or contact support."
+msgstr ""
+
+#: includes/form-handler.php:24
+#: includes/form-handler.php:99
+#: includes/form-handler.php:737
+#: includes/form-handler.php:772
+msgid "Form verification error. Please refresh the page and try again."
+msgstr ""
+
+#: includes/form-handler.php:40
+#: includes/form-handler.php:753
+msgid "Turnstile verification failed. Please refresh the page and try again."
+msgstr ""
+
+#: includes/form-handler.php:59
+#: includes/pdf-generator.php:50
+msgid "Email:"
+msgstr ""
+
+#: includes/form-handler.php:65
+msgid "Order number:"
+msgstr ""
+
+#: includes/form-handler.php:79
+msgid "Send verification link"
+msgstr ""
+
+#: includes/form-handler.php:84
+msgid "E-mail must match the order"
+msgstr ""
+
+#: includes/form-handler.php:122
+msgid "Verification attempts limit exceeded. Please try again in an hour."
+msgstr ""
+
+#: includes/form-handler.php:144
+#: return-requests-woo.php:427
+msgid "Return for this order has already been registered."
+msgstr ""
+
+#: includes/form-handler.php:151
+msgid "Provided details do not match the order details."
+msgstr ""
+
+#: includes/form-handler.php:157
+msgid "Only completed orders are eligible for return."
+msgstr ""
+
+#: includes/form-handler.php:165
+msgid "Order date verification error."
+msgstr ""
+
+#: includes/form-handler.php:171
+msgid "The statutory return period for this order has expired."
+msgstr ""
+
+#. translators: %d represents the order ID
+#: includes/form-handler.php:192
+#, php-format
+msgid "Verification - Order return #%d"
+msgstr ""
+
+#: includes/form-handler.php:194
+msgid "We received a return request for your order. To continue the process, please verify your request by clicking the button below:"
+msgstr ""
+
+#: includes/form-handler.php:198
+msgid "I confirm the return"
+msgstr ""
+
+#: includes/form-handler.php:199
+msgid "If the button does not work, copy and paste the following link into your browser:"
+msgstr ""
+
+#: includes/form-handler.php:201
+msgid "If you didn't request an order return, please ignore this message."
+msgstr ""
+
+#: includes/form-handler.php:205
+msgid "Verification email sent successfully. Please check your inbox."
+msgstr ""
+
+#: includes/form-handler.php:208
+msgid "A problem occurred while sending the email. Please try again later."
+msgstr ""
+
+#: includes/form-handler.php:254
+msgid "Token verification attempts limit exceeded. Please try again in an hour or contact store support."
+msgstr ""
+
+#: includes/form-handler.php:402
+msgid "Access parameters missing"
+msgstr ""
+
+#: includes/form-handler.php:403
+msgid "To access the return form, you must use the link from the verification email or the \"Return Order\" button in your customer dashboard."
+msgstr ""
+
+#: includes/form-handler.php:404
+msgid "Go to return form"
+msgstr ""
+
+#: includes/form-handler.php:474
+msgid "Verification link has expired or is invalid"
+msgstr ""
+
+#: includes/form-handler.php:475
+msgid "For security purposes, verification links are one-time use and expire one hour after generation."
+msgstr ""
+
+#: includes/form-handler.php:476
+#: includes/form-handler.php:498
+msgid "Generate new link"
+msgstr ""
+
+#: includes/form-handler.php:496
+msgid "Session expired or invalid"
+msgstr ""
+
+#: includes/form-handler.php:497
+msgid "Your session may have expired or the link format is invalid. Please try again."
+msgstr ""
+
+#: includes/form-handler.php:523
+msgid "Return already registered"
+msgstr ""
+
+#: includes/form-handler.php:524
+msgid "Return for this order has already been registered. If you have any questions, please contact customer service."
+msgstr ""
+
+#: includes/form-handler.php:532
+msgid "Missing required contact details"
+msgstr ""
+
+#: includes/form-handler.php:533
+#: includes/form-handler.php:887
+msgid "Missing required contact details: address."
+msgstr ""
+
+#: includes/form-handler.php:543
+msgid "Order not found"
+msgstr ""
+
+#: includes/form-handler.php:544
+msgid "Could not find an order with the provided number. Please check your order number."
+msgstr ""
+
+#: includes/form-handler.php:545
+msgid "Try again"
+msgstr ""
+
+#: includes/form-handler.php:560
+msgid "Select products to return:"
+msgstr ""
+
+#: includes/form-handler.php:565
+msgid "Quantity:"
+msgstr ""
+
+#: includes/form-handler.php:572
+msgid "Enter bank account number for refund:"
+msgstr ""
+
+#: includes/form-handler.php:573
+#: includes/pdf-generator.php:180
+msgid "Bank account number:"
+msgstr ""
+
+#: includes/form-handler.php:578
+msgid "PL12 3456 7890 1234 5678 9012 3456"
+msgstr ""
+
+#: includes/form-handler.php:579
+msgid "Account number should contain country code and up to 34 alphanumeric characters"
+msgstr ""
+
+#: includes/form-handler.php:581
+msgid "Enter bank account number"
+msgstr ""
+
+#: includes/form-handler.php:582
+msgid "Please enter your valid bank account number"
+msgstr ""
+
+#: includes/form-handler.php:585
+msgid "12 3456 7890 1234 5678 9012 3456"
+msgstr ""
+
+#: includes/form-handler.php:587
+msgid "Account number should contain exactly 26 digits"
+msgstr ""
+
+#: includes/form-handler.php:607
+#: includes/pdf-generator.php:54
+msgid "Terms and Conditions"
+msgstr ""
+
+#: includes/form-handler.php:608
+#: includes/pdf-generator.php:55
+msgid "Privacy Policy"
+msgstr ""
+
+#. translators: 1: Terms And Conditions link, 2: Privacy Policy link
+#: includes/form-handler.php:618
+#, php-format
+msgid "By clicking \"Return selected items\", I declare that I have read the %1$s and %2$s and accept their provisions. I hereby exercise my <strong>right of withdrawal</strong> from the distance contract pursuant to <strong>Art. 27 of the Polish Consumer Rights Act of May 30, 2014</strong>. I commit to returning the selected products within <strong>14 days</strong> of the date of this declaration, at my own expense."
+msgstr ""
+
+#. translators: 1: Terms And Conditions link, 2: Privacy Policy link
+#: includes/form-handler.php:626
+#, php-format
+msgid "By clicking \"Return selected items\", I declare that I have read the %1$s and %2$s and accept their provisions. I hereby exercise my <strong>right to cancel</strong> this distance contract under <strong>Regulation 29 of the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013</strong>. I acknowledge I must return the selected products within <strong>14 days</strong> of this notice, at my own expense."
+msgstr ""
+
+#. translators: 1: Terms And Conditions link, 2: Privacy Policy link
+#: includes/form-handler.php:634
+#, php-format
+msgid "By clicking \"Return selected items\", I declare that I have read the %1$s and %2$s and accept their provisions. I acknowledge that Swiss law does not provide a statutory right of withdrawal for online purchases. I am returning the selected products in accordance with the <strong>voluntary return policy</strong> of the seller, as described in the Terms and Conditions, and I accept that return shipping costs are at my own expense."
+msgstr ""
+
+#. translators: 1: Terms And Conditions link, 2: Privacy Policy link
+#: includes/form-handler.php:642
+#, php-format
+msgid "By clicking \"Return selected items\", I declare that I have read the %1$s and %2$s and accept their provisions. I hereby exercise my <strong>right of withdrawal</strong> (<em>cayma hakk&#305;</em>) from this distance contract pursuant to <strong>Law No. 6502 on the Protection of Consumers</strong> and the <strong>Regulation on Distance Contracts</strong>. I acknowledge that I must return the selected products within <strong>14 days</strong> of this notification, at my own expense."
+msgstr ""
+
+#. translators: 1: Terms And Conditions link, 2: Privacy Policy link
+#: includes/form-handler.php:650
+#, php-format
+msgid "By clicking \"Return selected items\", I declare that I have read the %1$s and %2$s and accept their provisions. I hereby exercise my right to return the selected products pursuant to the <strong>Law of Ukraine \"On Consumer Protection\"</strong> (Law No. 1023-XII) / <strong>Law of the Republic of Moldova No. 105/2003 on Consumer Protection</strong>. I acknowledge that I must return the products within <strong>14 days</strong> of receipt, at my own expense, provided the goods are in their original condition."
+msgstr ""
+
+#. translators: 1: Terms And Conditions link, 2: Privacy Policy link
+#: includes/form-handler.php:658
+#, php-format
+msgid "By clicking \"Return selected items\", I declare that I have read the %1$s and %2$s and accept their provisions. I am submitting this return request in accordance with the seller's <strong>voluntary return policy</strong> as described in the Terms and Conditions. I acknowledge that return shipping costs are at my own expense unless the product is defective or was shipped in error."
+msgstr ""
+
+#. translators: 1: Terms And Conditions link, 2: Privacy Policy link
+#: includes/form-handler.php:666
+#, php-format
+msgid "By clicking \"Return selected items\", I declare that I have read the %1$s and %2$s and accept their provisions. I am submitting this return request in accordance with applicable <strong>provincial consumer protection legislation</strong> (including, where applicable, the Ontario <em>Consumer Protection Act, 2002</em>) and/or the seller's return policy as described in the Terms and Conditions. I acknowledge that return shipping costs are at my own expense."
+msgstr ""
+
+#. translators: 1: Terms And Conditions link, 2: Privacy Policy link
+#: includes/form-handler.php:674
+#, php-format
+msgid "By clicking \"Return selected items\", I declare that I have read the %1$s and %2$s and accept their provisions. I acknowledge that my statutory rights under the <strong>Australian Consumer Law (Competition and Consumer Act 2010, Schedule 2)</strong> apply in the case of faulty or non-conforming goods. I am submitting this return request in accordance with the seller's <strong>voluntary return policy</strong> as described in the Terms and Conditions. Return shipping costs are at my own expense unless the product is faulty."
+msgstr ""
+
+#. translators: 1: Terms And Conditions link, 2: Privacy Policy link
+#: includes/form-handler.php:682
+#, php-format
+msgid "By clicking \"Return selected items\", I declare that I have read the %1$s and %2$s and accept their provisions. I hereby exercise my <strong>right of regret</strong> (<em>direito de arrependimento</em>) pursuant to <strong>Art. 49 of the Brazilian Consumer Protection Code (CDC &mdash; Lei n&ordm; 8.078/1990)</strong>. I acknowledge that I must return the selected products within <strong>7 calendar days</strong> of receipt. Return shipping costs are at my own expense unless otherwise agreed."
+msgstr ""
+
+#. translators: 1: Terms And Conditions link, 2: Privacy Policy link
+#: includes/form-handler.php:691
+#, php-format
+msgid "By clicking \"Return selected items\", I declare that I have read the %1$s and %2$s and accept their provisions. I hereby exercise my <strong>right of withdrawal</strong> from the distance contract pursuant to <strong>Art. 9 of Directive 2011/83/EU</strong> of 25 October 2011 on consumer rights. I acknowledge that I am responsible for returning the selected products within <strong>14 days</strong> of this notification, at my own expense, in accordance with <strong>Art. 14(1)</strong> of the said Directive."
+msgstr ""
+
+#: includes/form-handler.php:701
+msgid "I acknowledge that the refund will be processed exclusively to the provided bank account number."
+msgstr ""
+
+#: includes/form-handler.php:704
+msgid "If you have any questions or concerns regarding the return, please contact our customer service at"
+msgstr ""
+
+#: includes/form-handler.php:710
+msgid "Please be informed that personal data processing complies with GDPR regulations and is based on"
+msgstr ""
+
+#: includes/form-handler.php:712
+msgid "Please be informed that personal data processing is based on"
+msgstr ""
+
+#: includes/form-handler.php:715
+msgid "Privacy policy"
+msgstr ""
+
+#: includes/form-handler.php:728
+msgid "Return selected items"
+msgstr ""
+
+#: includes/form-handler.php:789
+msgid "Invalid return token or session expired."
+msgstr ""
+
+#: includes/form-handler.php:789
+msgid "Try again."
+msgstr ""
+
+#: includes/form-handler.php:805
+msgid "Missing required data. Ensure products for return are selected and bank account number is provided."
+msgstr ""
+
+#: includes/form-handler.php:816
+msgid "Unauthorized operation. Product identity verification failed."
+msgstr ""
+
+#: includes/form-handler.php:827
+msgid "Invalid IBAN format. Please check your international bank account number."
+msgstr ""
+
+#: includes/form-handler.php:842
+msgid "Bank account number cannot be empty."
+msgstr ""
+
+#: includes/form-handler.php:850
+msgid "Invalid bank account number format. Number must contain 26 digits."
+msgstr ""
+
+#: includes/form-handler.php:952
+msgid "An error occurred while processing the return:"
+msgstr ""
+
+#: includes/form-handler.php:952
+msgid "Try again or contact store support."
+msgstr ""
+
+#: includes/my-account-integration.php:16
+msgid "Return"
+msgstr ""
+
+#: includes/my-account-integration.php:27
+msgid "Submit return"
+msgstr ""
+
+#: includes/my-account-integration.php:67
+msgid "Missing required contact details (address). Please update them in account settings."
+msgstr ""
+
+#: includes/my-account-integration.php:87
+msgid "Order does not meet return conditions or was manipulated."
+msgstr ""
+
+#: includes/order-integration.php:17
+msgid "Return Request Status"
+msgstr ""
+
+#: includes/order-integration.php:42
+msgid "No return associated with this order."
+msgstr ""
+
+#: includes/order-integration.php:52
+msgid "Status:"
+msgstr ""
+
+#: includes/order-integration.php:62
+msgid "Issue description (will be sent as an order note to customer):"
+msgstr ""
+
+#: includes/order-integration.php:64
+msgid "Optional. Leave blank to just change the status without sending a note."
+msgstr ""
+
+#: includes/order-integration.php:69
+msgid "View full return details"
+msgstr ""
+
+#. translators: %s: status name
+#: includes/order-integration.php:146
+#, php-format
+msgid "Return status updated to %s."
+msgstr ""
+
+#: includes/pdf-generator.php:46
+msgid "Customer details:"
+msgstr ""
+
+#: includes/pdf-generator.php:47
+msgid "First and Last Name:"
+msgstr ""
+
+#: includes/pdf-generator.php:48
+msgid "Address:"
+msgstr ""
+
+#: includes/pdf-generator.php:49
+msgid "Phone:"
+msgstr ""
+
+#. translators: 1: Terms And Conditions text, 2: Privacy Policy text
+#: includes/pdf-generator.php:66
+#, php-format
+msgid "I declare that I have read the %1$s and %2$s and accept their provisions. I hereby exercise my <strong>right of withdrawal</strong> from the distance contract pursuant to <strong>Art. 27 of the Polish Consumer Rights Act of May 30, 2014</strong>. I commit to returning the selected products within <strong>14 days</strong> of the date of this declaration, at my own expense."
+msgstr ""
+
+#. translators: 1: Terms And Conditions text, 2: Privacy Policy text
+#: includes/pdf-generator.php:74
+#, php-format
+msgid "I declare that I have read the %1$s and %2$s and accept their provisions. I hereby exercise my <strong>right to cancel</strong> this distance contract under <strong>Regulation 29 of the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013</strong>. I acknowledge I must return the selected products within <strong>14 days</strong> of this notice, at my own expense."
+msgstr ""
+
+#. translators: 1: Terms And Conditions text, 2: Privacy Policy text
+#: includes/pdf-generator.php:82
+#, php-format
+msgid "I declare that I have read the %1$s and %2$s and accept their provisions. I acknowledge that Swiss law does not provide a statutory right of withdrawal for online purchases. I am returning the selected products in accordance with the <strong>voluntary return policy</strong> of the seller, as described in the Terms and Conditions, and I accept that return shipping costs are at my own expense."
+msgstr ""
+
+#. translators: 1: Terms And Conditions text, 2: Privacy Policy text
+#: includes/pdf-generator.php:90
+#, php-format
+msgid "I declare that I have read the %1$s and %2$s and accept their provisions. I hereby exercise my <strong>right of withdrawal</strong> (<em>cayma hakk&#305;</em>) from this distance contract pursuant to <strong>Law No. 6502 on the Protection of Consumers</strong> and the <strong>Regulation on Distance Contracts</strong>. I acknowledge that I must return the selected products within <strong>14 days</strong> of this notification, at my own expense."
+msgstr ""
+
+#. translators: 1: Terms And Conditions text, 2: Privacy Policy text
+#: includes/pdf-generator.php:98
+#, php-format
+msgid "I declare that I have read the %1$s and %2$s and accept their provisions. I hereby exercise my right to return the selected products pursuant to the <strong>Law of Ukraine \"On Consumer Protection\"</strong> (Law No. 1023-XII) / <strong>Law of the Republic of Moldova No. 105/2003 on Consumer Protection</strong>. I acknowledge that I must return the products within <strong>14 days</strong> of receipt, at my own expense, provided the goods are in their original condition."
+msgstr ""
+
+#. translators: 1: Terms And Conditions text, 2: Privacy Policy text
+#: includes/pdf-generator.php:106
+#, php-format
+msgid "I declare that I have read the %1$s and %2$s and accept their provisions. I am submitting this return request in accordance with the seller's <strong>voluntary return policy</strong> as described in the Terms and Conditions. I acknowledge that return shipping costs are at my own expense unless the product is defective or was shipped in error."
+msgstr ""
+
+#. translators: 1: Terms And Conditions text, 2: Privacy Policy text
+#: includes/pdf-generator.php:114
+#, php-format
+msgid "I declare that I have read the %1$s and %2$s and accept their provisions. I am submitting this return request in accordance with applicable <strong>provincial consumer protection legislation</strong> (including, where applicable, the Ontario <em>Consumer Protection Act, 2002</em>) and/or the seller's return policy as described in the Terms and Conditions. I acknowledge that return shipping costs are at my own expense."
+msgstr ""
+
+#. translators: 1: Terms And Conditions text, 2: Privacy Policy text
+#: includes/pdf-generator.php:122
+#, php-format
+msgid "I declare that I have read the %1$s and %2$s and accept their provisions. I acknowledge that my statutory rights under the <strong>Australian Consumer Law (Competition and Consumer Act 2010, Schedule 2)</strong> apply in the case of faulty or non-conforming goods. I am submitting this return request in accordance with the seller's <strong>voluntary return policy</strong> as described in the Terms and Conditions. Return shipping costs are at my own expense unless the product is faulty."
+msgstr ""
+
+#. translators: 1: Terms And Conditions text, 2: Privacy Policy text
+#: includes/pdf-generator.php:130
+#, php-format
+msgid "I declare that I have read the %1$s and %2$s and accept their provisions. I hereby exercise my <strong>right of regret</strong> (<em>direito de arrependimento</em>) pursuant to <strong>Art. 49 of the Brazilian Consumer Protection Code (CDC &mdash; Lei n&ordm; 8.078/1990)</strong>. I acknowledge that I must return the selected products within <strong>7 calendar days</strong> of receipt. Return shipping costs are at my own expense unless otherwise agreed."
+msgstr ""
+
+#. translators: 1: Terms And Conditions text, 2: Privacy Policy text
+#: includes/pdf-generator.php:139
+#, php-format
+msgid "I declare that I have read the %1$s and %2$s and accept their provisions. I hereby exercise my <strong>right of withdrawal</strong> from the distance contract pursuant to <strong>Art. 9 of Directive 2011/83/EU</strong> of 25 October 2011 on consumer rights. I acknowledge that I am responsible for returning the selected products within <strong>14 days</strong> of this notification, at my own expense, in accordance with <strong>Art. 14(1)</strong> of the said Directive."
+msgstr ""
+
+#: includes/pdf-generator.php:147
+msgid "I declare that returned goods are unused and in unaltered condition."
+msgstr ""
+
+#: includes/pdf-generator.php:160
+msgid "Goods Return Protocol"
+msgstr ""
+
+#: includes/pdf-generator.php:161
+msgid "Order date:"
+msgstr ""
+
+#: includes/pdf-generator.php:162
+msgid "Form submission date:"
+msgstr ""
+
+#: includes/pdf-generator.php:164
+msgid "Products to return:"
+msgstr ""
+
+#: includes/pdf-generator.php:168
+msgid "No."
+msgstr ""
+
+#: includes/pdf-generator.php:169
+msgid "Product"
+msgstr ""
+
+#: includes/pdf-generator.php:170
+msgid "Quantity"
+msgstr ""
+
+#: includes/pdf-generator.php:171
+msgid "Price"
+msgstr ""
+
+#: includes/pdf-generator.php:179
+msgid "Return details:"
+msgstr ""
+
+#: includes/pdf-generator.php:183
+msgid "Customer signature:"
+msgstr ""
+
+#: includes/wc-status-sync.php:17
+#: includes/wc-status-sync.php:55
+msgctxt "Order status"
+msgid "Return (pending)"
+msgstr ""
+
+#. translators: %s: count
+#: includes/wc-status-sync.php:23
+#, php-format
+msgid "Return (pending) <span class=\"count\">(%s)</span>"
+msgid_plural "Returns (pending) <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wc-status-sync.php:27
+#: includes/wc-status-sync.php:56
+msgctxt "Order status"
+msgid "Return (completed)"
+msgstr ""
+
+#. translators: %s: count
+#: includes/wc-status-sync.php:33
+#, php-format
+msgid "Return (completed) <span class=\"count\">(%s)</span>"
+msgid_plural "Returns (completed) <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/wc-status-sync.php:37
+#: includes/wc-status-sync.php:57
+msgctxt "Order status"
+msgid "Return (issue)"
+msgstr ""
+
+#. translators: %s: count
+#: includes/wc-status-sync.php:43
+#, php-format
+msgid "Return (issue) <span class=\"count\">(%s)</span>"
+msgid_plural "Returns (issue) <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: return-requests-woo.php:33
+msgid "Composer autoloader is missing. Run `composer install` in the plugin directory."
+msgstr ""
+
+#: return-requests-woo.php:77
+#: return-requests-woo.php:99
+msgid "Unauthorized access."
+msgstr ""
+
+#: return-requests-woo.php:104
+msgid "Security check failed."
+msgstr ""
+
+#: return-requests-woo.php:113
+msgid "File not found on server."
+msgstr ""
+
+#: return-requests-woo.php:202
+msgid "Return Requests for WooCommerce plugin is active!"
+msgstr ""
+
+#: return-requests-woo.php:203
+msgid "Required pages were created automatically. Configure the plugin in a few steps:"
+msgstr ""
+
+#. translators: %1$s: opening <a>, %2$s: closing </a>
+#: return-requests-woo.php:208
+#, php-format
+msgid "Go to %1$sEmail Settings%2$s and set the administrator email."
+msgstr ""
+
+#: return-requests-woo.php:213
+msgid "Customize email titles and content."
+msgstr ""
+
+#: return-requests-woo.php:214
+msgid "(Recommended) Configure Cloudflare Turnstile as spam protection."
+msgstr ""
+
+#: return-requests-woo.php:217
+msgid "I understand, close"
+msgstr ""
+
+#: return-requests-woo.php:218
+msgid "Don't show again"
+msgstr ""
+
+#. translators: %s: URL to email settings tab
+#: return-requests-woo.php:242
+#, php-format
+msgid "&#9888; Administrator email is not configured. Return notifications will not be sent to the store admin. <a href=\"%s\">Go to Email Settings</a>."
+msgstr ""
+
+#. translators: %1$s: page slug, %2$s: settings page URL
+#: return-requests-woo.php:256
+#, php-format
+msgid "&#9888; Required page \"/%1$s/\" does not exist. <a href=\"%2$s\">Go to Pages tab</a> to recreate it."
+msgstr ""
+
+#: return-requests-woo.php:333
+msgid "Account number must contain exactly 26 digits!"
+msgstr ""
+
+#: return-requests-woo.php:436
+msgid "Missing required contact details (phone number or address). Please update them in account settings."
+msgstr ""
+
+#: return-requests-woo.php:464
+msgid "Order return"
+msgstr ""
+
+#: return-requests-woo.php:493
+msgid "Plugin configuration error. Please contact the administrator."
+msgstr ""

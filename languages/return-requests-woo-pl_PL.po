@@ -1,0 +1,1360 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Return Requests for WooCommerce 5.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-03-23T00:42:37+00:00\n"
+"PO-Revision-Date: 2026-03-23T00:42:37+00:00\n"
+"Language: pl_PL\n"
+"X-Domain: return-requests-woo\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. translators: %s: URL to email settings tab
+#: return-requests-woo.php:211
+#, php-format
+msgid "&#9888; Administrator email is not configured. Return notifications will not be sent to the store admin. <a href=\"%s\">Go to Email Settings</a>."
+msgstr "&#9888; E-mail administratora nie jest skonfigurowany. Powiadomienia o zwrotach nie będą wysyłane do administratora sklepu. <a href=\"%s\">Przejdź do Ustawień e-maili</a>."
+
+#. translators: %1$s: page slug, %2$s: settings page URL
+#: return-requests-woo.php:225
+#, php-format
+msgid "&#9888; Required page \"/%1$s/\" does not exist. <a href=\"%2$s\">Go to Pages tab</a> to recreate it."
+msgstr "&#9888; Wymagana strona \"/%1$s/\" nie istnieje. <a href=\"%2$s\">Przejdź do zakładki Strony</a>, aby ją odtworzyć."
+
+#: return-requests-woo.php:186
+msgid "(Recommended) Configure Cloudflare Turnstile as spam protection."
+msgstr "(Zalecane) Skonfiguruj Cloudflare Turnstile jako ochronę przed spamem."
+
+#: includes/form-handler.php:400
+msgid "To access the return form, you must use the link from the verification email or the \"Return Order\" button in your customer dashboard."
+msgstr "Aby uzyskać dostęp do formularza zwrotu, musisz użyć linku z maila weryfikacyjnego lub przycisku \"Zwrot zamówienia\" w panelu klienta."
+
+#: includes/admin-pages/main-page.php:311
+msgid "Contact email address:"
+msgstr "Adres e-mail do kontaktu:"
+
+#: includes/admin-pages/main-page.php:298
+msgid "Sender address. It must be authenticated by your Mail/SMTP server to avoid spam filters."
+msgstr "Adres wysyłający. Musi być autoryzowany przez Twój serwer poczty/SMTP, aby uniknąć filtrów spam."
+
+#: includes/pdf-generator.php:48
+msgid "Address:"
+msgstr "Adres:"
+
+#: includes/form-handler.php:606
+msgid "I acknowledge that the refund will be processed exclusively to the provided bank account number."
+msgstr "Akceptuję, że zwrot środków zostanie wykonany wyłącznie na podany przeze mnie numer konta bankowego."
+
+#: includes/admin-pages/main-page.php:97
+msgid "Security"
+msgstr "Bezpieczeństwo"
+
+#: includes/form-handler.php:399
+msgid "Access parameters missing"
+msgstr "Brak parametrów dostępu"
+
+#: includes/form-handler.php:529
+msgid "Missing required contact details"
+msgstr "Brak wymaganych danych kontaktowych"
+
+#: return-requests-woo.php:395
+msgid "Missing required contact details (phone number or address). Please update them in account settings."
+msgstr "Brak wymaganych danych kontaktowych (nr telefonu lub adres). Uzupełnij je w ustawieniach konta."
+
+#: includes/form-handler.php:704
+msgid "Missing required data. Ensure products for return are selected and bank account number is provided."
+msgstr "Brak wymaganych danych. Upewnij się, że wybrano produkty do zwrotu i podano numer konta bankowego."
+
+#: return-requests-woo.php:32
+msgid "Composer autoloader is missing. Run `composer install` in the plugin directory."
+msgstr "Brakuje autoloadera Composer. Uruchom `composer install` w katalogu wtyczki."
+
+#: return-requests-woo.php:452
+msgid "Plugin configuration error. Please contact the administrator."
+msgstr "Błąd konfiguracji wtyczki. Skontaktuj się z administratorem."
+
+#: includes/form-handler.php:165
+msgid "Order date verification error."
+msgstr "Błąd weryfikacji daty zamówienia."
+
+#: includes/form-handler.php:24
+#: includes/form-handler.php:99
+#: includes/form-handler.php:636
+#: includes/form-handler.php:671
+msgid "Form verification error. Please refresh the page and try again."
+msgstr "Błąd weryfikacji formularza. Odśwież stronę i spróbuj ponownie."
+
+#: includes/pdf-generator.php:74
+msgid "Price"
+msgstr "Cena"
+
+#: includes/admin-pages/main-page.php:385
+msgid "Cloudflare Turnstile (SPAM Protection)"
+msgstr "Cloudflare Turnstile (Ochrona przed SPAMem)"
+
+#: includes/admin-pages/main-page.php:367
+msgid "PDF generation data:"
+msgstr "Dane do generowania PDF:"
+
+#: includes/pdf-generator.php:82
+msgid "Return details:"
+msgstr "Dane do zwrotu:"
+
+#: includes/pdf-generator.php:46
+msgid "Customer details:"
+msgstr "Dane klienta:"
+
+#: includes/form-handler.php:84
+msgid "E-mail must match the order"
+msgstr "E-mail musi być taki sam jak w zamówieniu"
+
+#: includes/admin-pages/main-page.php:370
+#: includes/pdf-generator.php:58
+msgid "Store details:"
+msgstr "Dane sklepu:"
+
+#: includes/pdf-generator.php:64
+msgid "Order date:"
+msgstr "Data zamówienia:"
+
+#: includes/pdf-generator.php:65
+msgid "Form submission date:"
+msgstr "Data złożenia formularza:"
+
+#: includes/form-handler.php:157
+msgid "Only completed orders are eligible for return."
+msgstr "Do zwrotu kwalifikują się wyłącznie zrealizowane zamówienia."
+
+#: return-requests-woo.php:185
+msgid "Customize email titles and content."
+msgstr "Dostosuj tytuły i treści wiadomości e-mail."
+
+#: includes/admin-pages/main-page.php:423
+msgid "Learn more about Cloudflare Turnstile"
+msgstr "Dowiedz się więcej o Cloudflare Turnstile"
+
+#: includes/email-sender.php:111
+msgid "Thank you for using our services."
+msgstr "Dziękujemy za skorzystanie z naszych usług."
+
+#: includes/admin-pages/main-page.php:284
+msgid "Administrator email:"
+msgstr "E-mail administratora:"
+
+#: includes/admin-pages/main-page.php:345
+msgid "Email for administrator"
+msgstr "E-mail dla administratora"
+
+#: includes/admin-pages/main-page.php:323
+msgid "Email for customer"
+msgstr "E-mail dla klienta"
+
+#: includes/admin-pages/main-page.php:293
+msgid "Sender email:"
+msgstr "E-mail nadawcy:"
+
+#: includes/form-handler.php:59
+#: includes/pdf-generator.php:50
+msgid "Email:"
+msgstr "E-mail:"
+
+#: includes/admin-pages/main-page.php:244
+msgid "Bank account number format:"
+msgstr "Format numeru konta bankowego:"
+
+#: includes/admin-pages/main-page.php:160
+#: includes/admin-pages/main-page.php:467
+#: includes/form-handler.php:54
+msgid "Return Form"
+msgstr "Formularz Zwrotu"
+
+#: includes/admin-pages/main-page.php:471
+#: includes/form-handler.php:551
+msgid "Product Selection Form for Return"
+msgstr "Formularz wyboru produktów do zwrotu"
+
+#: includes/admin-pages/main-page.php:248
+msgid "IBAN (International)"
+msgstr "IBAN (międzynarodowy)"
+
+#: includes/pdf-generator.php:73
+msgid "Quantity"
+msgstr "Ilość"
+
+#: includes/form-handler.php:562
+msgid "Quantity:"
+msgstr "Ilość:"
+
+#: includes/pdf-generator.php:47
+msgid "First and Last Name:"
+msgstr "Imię i nazwisko:"
+
+#: includes/admin-pages/main-page.php:94
+msgid "Information"
+msgstr "Informacje"
+
+#: includes/form-handler.php:613
+msgid "Please be informed that personal data processing complies with GDPR regulations and is based on"
+msgstr "Informujemy, że przetwarzanie danych osobowych odbywa się zgodnie z przepisami RODO oraz na podstawie"
+
+#: includes/form-handler.php:198
+msgid "If you didn't request an order return, please ignore this message."
+msgstr "Jeśli nie prosiłeś o zwrot zamówienia, zignoruj tę wiadomość."
+
+#: includes/form-handler.php:196
+msgid "If the button does not work, copy and paste the following link into your browser:"
+msgstr "Jeśli przycisk nie działa, skopiuj i wklej poniższy link do przeglądarki:"
+
+#: includes/admin-pages/main-page.php:435
+msgid "Delete returns"
+msgstr "Kasowanie zwrotów"
+
+#: includes/form-handler.php:599
+msgid "By clicking \"Return selected items\", I declare that I have read the"
+msgstr "Klikając przycisk \"Zwróć wybrane przedmioty\", oświadczam, że zapoznałem/am się z"
+
+#: includes/admin-pages/main-page.php:264
+msgid "Click the button below to check if required pages exist and recreate them if necessary."
+msgstr "Kliknij poniższy przycisk, aby sprawdzić czy wymagane strony istnieją i ewentualnie je utworzyć."
+
+#: includes/form-handler.php:471
+msgid "Verification link has expired or is invalid"
+msgstr "Link weryfikacyjny wygasł lub jest nieprawidłowy"
+
+#: includes/pdf-generator.php:71
+msgid "No."
+msgstr "Lp."
+
+#: includes/form-handler.php:171
+msgid "The statutory return period for this order has expired."
+msgstr "Minął regulaminowy czas na zwrot tego zamówienia."
+
+#: includes/admin-pages/main-page.php:32
+msgid "You must type \"confirm\" to delete all records."
+msgstr "Musisz wpisać \"potwierdzam\", aby usunąć wszystkie rekordy."
+
+#: includes/admin-pages/main-page.php:302
+msgid "Email sender name:"
+msgstr "Nazwa nadawcy e-maili:"
+
+#: includes/admin-pages/main-page.php:307
+msgid "Display name in email client (e.g. \"My Store Returns\")."
+msgstr "Nazwa wyświetlana w kliencie pocztowym (np. \"Mój Sklep Zwroty\")."
+
+#: includes/form-handler.php:541
+msgid "Could not find an order with the provided number. Please check your order number."
+msgstr "Nie udało się znaleźć zamówienia o podanym numerze. Sprawdź czy podałeś prawidłowy numer zamówienia."
+
+#: includes/form-handler.php:540
+msgid "Order not found"
+msgstr "Nie znaleziono zamówienia"
+
+#: includes/form-handler.php:715
+msgid "Unauthorized operation. Product identity verification failed."
+msgstr "Niedozwolona operacja. Błąd weryfikacji tożsamości produktów."
+
+#: includes/form-handler.php:749
+msgid "Invalid bank account number format. Number must contain 26 digits."
+msgstr "Nieprawidłowy format numeru konta bankowego. Numer musi zawierać 26 cyfr."
+
+#: includes/form-handler.php:688
+msgid "Invalid return token or session expired."
+msgstr "Nieprawidłowy token zwrotu lub sesja wygasła."
+
+#: includes/email-sender.php:91
+msgid "New return for order #{order_id}"
+msgstr "Nowy zwrot zamówienia #{order_id}"
+
+#: includes/form-handler.php:570
+#: includes/pdf-generator.php:83
+msgid "Bank account number:"
+msgstr "Numer konta bankowego:"
+
+#: return-requests-woo.php:298
+msgid "Account number must contain exactly 26 digits!"
+msgstr "Numer konta powinien zawierać dokładnie 26 cyfr!"
+
+#: includes/form-handler.php:65
+msgid "Order number:"
+msgstr "Numer zamówienia:"
+
+#: includes/admin-pages/main-page.php:236
+msgid "Return time window (days):"
+msgstr "Okno czasowe zwrotu (dni):"
+
+#: includes/admin-pages/main-page.php:251
+msgid "Defines how the bank account number provided by the customer is verified."
+msgstr "Określa, jak weryfikowany jest numer konta bankowego podany przez klienta."
+
+#: includes/admin-pages/main-page.php:122
+msgid "Plugin operation description"
+msgstr "Opis działania wtyczki"
+
+#: includes/admin-pages/main-page.php:452
+msgid "Empty returns list"
+msgstr "Opróżnij listę zwrotów"
+
+#: includes/form-handler.php:194
+msgid "We received a return request for your order. To continue the process, please verify your request by clicking the button below:"
+msgstr "Otrzymaliśmy prośbę o zwrot zamówienia. Aby kontynuować proces, prosimy o weryfikację tej prośby klikając poniższy przycisk:"
+
+#: includes/pdf-generator.php:86
+msgid "I declare that pursuant to Art. 27 of the Consumer Rights Act of May 30, 2014, I am returning the purchased goods. I declare that returned goods are unused and in unaltered condition."
+msgstr "Oświadczam, że zgodnie z art. 27 ustawy z dnia 30 maja 2014 o prawach konsumenta zwracam zakupiony towar. Oświadczam, że zwracany towar jest w stanie niezmienionym i nie był używany."
+
+#: includes/pdf-generator.php:88
+msgid "I declare that I am familiar with the return conditions specified in the Terms and Conditions and accept the Privacy Policy."
+msgstr "Oświadczam, że znane są mi warunki zwrotów określone w regulaminie oraz akceptuję politykę prywatności sklepu."
+
+#: includes/admin-pages/main-page.php:288
+msgid "Enter administrator email"
+msgstr "Podaj e-mail administratora"
+
+#: includes/admin-pages/main-page.php:297
+msgid "Enter sender email"
+msgstr "Podaj e-mail nadawcy"
+
+#: includes/form-handler.php:569
+msgid "Enter bank account number for refund:"
+msgstr "Podaj numer konta bankowego do zwrotu:"
+
+#: includes/form-handler.php:151
+msgid "Provided details do not match the order details."
+msgstr "Podane dane nie są zgodne z danymi zamówienia."
+
+#: includes/pdf-generator.php:89
+msgid "Customer signature:"
+msgstr "Podpis klienta:"
+
+#: includes/admin-pages/main-page.php:316
+msgid "Shown to customers in the return form as a contact address."
+msgstr "Pokazywany klientom w treści formularza zwrotu jako adres kontaktowy."
+
+#: includes/form-handler.php:602
+#: includes/form-handler.php:614
+msgid "Privacy policy"
+msgstr "Polityką prywatności"
+
+#: includes/admin-pages/main-page.php:247
+msgid "Polish (26 digits)"
+msgstr "Polski (26 cyfr)"
+
+#: includes/admin-pages/main-page.php:129
+msgid "Required plugins"
+msgstr "Potrzebne wtyczki do działania"
+
+#: includes/form-handler.php:195
+msgid "I confirm the return"
+msgstr "Potwierdzam zwrot"
+
+#: includes/pdf-generator.php:72
+msgid "Product"
+msgstr "Produkt"
+
+#: includes/pdf-generator.php:67
+msgid "Products to return:"
+msgstr "Produkty do zwrotu:"
+
+#: includes/pdf-generator.php:63
+msgid "Goods Return Protocol"
+msgstr "Protokół zwrotu towaru"
+
+#. translators: %1$s: opening <a>, %2$s: closing </a>
+#: return-requests-woo.php:180
+#, php-format
+msgid "Go to %1$sEmail Settings%2$s and set the administrator email."
+msgstr "Przejdź do %1$sUstawień e-maili%2$s i ustaw adres e-mail administratora."
+
+#: includes/form-handler.php:401
+msgid "Go to return form"
+msgstr "Przejdź do formularza zwrotu"
+
+#: includes/form-handler.php:251
+msgid "Token verification attempts limit exceeded. Please try again in an hour or contact store support."
+msgstr "Przekroczono limit prób weryfikacji tokenu. Spróbuj ponownie za godzinę lub skontaktuj się z obsługą sklepu."
+
+#: includes/form-handler.php:122
+msgid "Verification attempts limit exceeded. Please try again in an hour."
+msgstr "Przekroczono limit prób weryfikacji. Spróbuj ponownie za godzinę."
+
+#: includes/form-handler.php:600
+msgid "Terms and Conditions"
+msgstr "Regulaminem"
+
+#: includes/admin-pages/main-page.php:21
+msgid "Records older than a year have been deleted."
+msgstr "Rekordy starsze niż rok zostały usunięte."
+
+#: return-requests-woo.php:188
+msgid "I understand, close"
+msgstr "Rozumiem, zamknij"
+
+#: includes/admin-pages/main-page.php:415
+msgid "Secret Key:"
+msgstr "Secret Key:"
+
+#: includes/form-handler.php:493
+msgid "Session expired or invalid"
+msgstr "Sesja wygasła lub jest nieprawidłowa"
+
+#: includes/admin-pages/main-page.php:411
+msgid "Site Key:"
+msgstr "Site Key:"
+
+#: includes/admin-pages/main-page.php:212
+msgid "Return form slug:"
+msgstr "Slug formularza zwrotu:"
+
+#: includes/admin-pages/main-page.php:228
+msgid "Return confirmation slug:"
+msgstr "Slug potwierdzenia zwrotu:"
+
+#: includes/admin-pages/main-page.php:220
+msgid "Item selection slug:"
+msgstr "Slug wyboru przedmiotów:"
+
+#: includes/admin-pages/main-page.php:269
+msgid "Check and create required pages"
+msgstr "Sprawdź i utwórz wymagane strony"
+
+#: includes/form-handler.php:542
+msgid "Try again"
+msgstr "Spróbuj ponownie"
+
+#: includes/form-handler.php:851
+msgid "Try again or contact store support."
+msgstr "Spróbuj ponownie lub skontaktuj się z obsługą sklepu."
+
+#: includes/form-handler.php:688
+msgid "Try again."
+msgstr "Spróbuj ponownie."
+
+#: includes/admin-pages/main-page.php:95
+msgid "Pages"
+msgstr "Strony"
+
+#: includes/email-sender.php:110
+#: includes/email-sender.php:115
+msgid "Detailed information can be found in the attached PDF file."
+msgstr "Szczegółowe informacje znajdziesz w załączonym pliku PDF."
+
+#: includes/email-sender.php:42
+msgid "This message was generated automatically. Please do not reply."
+msgstr "Ta wiadomość została wygenerowana automatycznie. Prosimy nie odpowiadać na nią."
+
+#: includes/admin-pages/main-page.php:91
+msgid "This plugin enables return management in WooCommerce."
+msgstr "Ta wtyczka umożliwia zarządzanie zwrotami w WooCommerce."
+
+#: includes/pdf-generator.php:49
+msgid "Phone:"
+msgstr "Telefon:"
+
+#: includes/admin-pages/main-page.php:289
+msgid "This address receives a copy of every return request with an attached PDF."
+msgstr "Ten adres otrzymuje kopię każdego wniosku o zwrot z załączonym PDF-em."
+
+#: includes/admin-pages/main-page.php:335
+#: includes/admin-pages/main-page.php:357
+msgid "Content:"
+msgstr "Treść:"
+
+#: includes/form-handler.php:494
+msgid "Your session may have expired or the link format is invalid. Please try again."
+msgstr "Twoja sesja mogła wygasnąć lub link ma nieprawidłowy format. Spróbuj ponownie."
+
+#: includes/email-sender.php:94
+msgid "Your return for order #{order_id} has been registered."
+msgstr "Twój zwrot zamówienia #{order_id} został zarejestrowany."
+
+#: includes/admin-pages/main-page.php:352
+msgid "Email title for administrator"
+msgstr "Tytuł wiadomości dla administratora"
+
+#: includes/admin-pages/main-page.php:330
+msgid "Email title for customer"
+msgstr "Tytuł wiadomości dla klienta"
+
+#: includes/admin-pages/main-page.php:326
+#: includes/admin-pages/main-page.php:348
+msgid "Title:"
+msgstr "Tytuł:"
+
+#: includes/admin-pages/main-page.php:216
+msgid "URL slug for page with [return_form] shortcode. Default: return-form"
+msgstr "URL slug strony z shortcode [return_form]. Domyślnie: formularz-zwrotu"
+
+#: includes/admin-pages/main-page.php:224
+msgid "URL slug for page with [return_items_form] shortcode. Default: select-return-items"
+msgstr "URL slug strony z shortcode [return_items_form]. Domyślnie: wybierz-przedmioty-do-zwrotu"
+
+#: includes/admin-pages/main-page.php:232
+msgid "URL slug for page with [return_confirmation] shortcode. Default: return-confirmed"
+msgstr "URL slug strony z shortcode [return_confirmation]. Domyślnie: zwrot-potwierdzony"
+
+#: includes/admin-menu.php:34
+#: includes/admin-menu.php:35
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: includes/admin-pages/main-page.php:397
+msgid "Cloudflare Turnstile settings saved."
+msgstr "Ustawienia Cloudflare Turnstile zostały zapisane."
+
+#: includes/admin-pages/main-page.php:96
+#: includes/admin-pages/main-page.php:279
+msgid "Email settings"
+msgstr "Ustawienia e-maili"
+
+#: includes/admin-pages/main-page.php:75
+msgid "Email settings saved."
+msgstr "Ustawienia e-maili zostały zapisane."
+
+#: includes/admin-pages/main-page.php:205
+msgid "Plugin pages settings"
+msgstr "Ustawienia stron wtyczki"
+
+#: includes/admin-pages/main-page.php:44
+msgid "Pages settings saved."
+msgstr "Ustawienia stron zostały zapisane."
+
+#: includes/admin-pages/main-page.php:445
+msgid "Deletes all return records older than a year."
+msgstr "Usunie wszystkie rekordy zwrotów starsze niż rok."
+
+#: includes/admin-pages/main-page.php:453
+msgid "Deletes all return records from the database."
+msgstr "Usunie wszystkie rekordy zwrotów z bazy danych."
+
+#: includes/admin-pages/main-page.php:444
+msgid "Delete records older than a year"
+msgstr "Usuń rekordy starsze niż rok"
+
+#: includes/admin-pages/main-page.php:442
+msgid "Delete old returns"
+msgstr "Usuń stare zwroty"
+
+#: includes/admin-pages/main-page.php:449
+msgid "Delete all returns"
+msgstr "Usuń wszystkie zwroty"
+
+#. translators: %s: comma-separated list of created page titles
+#: includes/admin-pages/main-page.php:56
+#, php-format
+msgid "The following pages were created: %s."
+msgstr "Utworzono następujące strony: %s."
+
+#: includes/admin-pages/main-page.php:263
+msgid "Create required pages"
+msgstr "Utwórz wymagane strony"
+
+#: includes/admin-pages/main-page.php:436
+msgid "Warning: Deleted data cannot be restored."
+msgstr "Uwaga: Usunięte dane nie będą mogły zostać przywrócone."
+
+#: includes/admin-pages/main-page.php:331
+#: includes/admin-pages/main-page.php:338
+#: includes/admin-pages/main-page.php:353
+#: includes/admin-pages/main-page.php:360
+msgid "Use {order_id} as a placeholder for order number."
+msgstr "Użyj {order_id} jako symbolu zastępczego numeru zamówienia."
+
+#: includes/form-handler.php:472
+msgid "For security purposes, verification links are one-time use and expire one hour after generation."
+msgstr "W celach bezpieczeństwa, linki weryfikacyjne są jednorazowe i wygasają po godzinie od wygenerowania."
+
+#: includes/form-handler.php:609
+msgid "If you have any questions or concerns regarding the return, please contact our customer service at"
+msgstr "W przypadku jakichkolwiek pytań lub wątpliwości dotyczących zwrotu prosimy o kontakt z naszym działem obsługi klienta pod adresem"
+
+#. translators: %d represents the order ID
+#: includes/form-handler.php:192
+#, php-format
+msgid "Verification - Order return #%d"
+msgstr "Weryfikacja - Zwrot zamówienia #%d"
+
+#: includes/form-handler.php:40
+#: includes/form-handler.php:652
+msgid "Turnstile verification failed. Please refresh the page and try again."
+msgstr "Weryfikacja Turnstile nie powiodła się. Prosimy odświeżyć stronę i spróbować ponownie."
+
+#: includes/admin-pages/main-page.php:451
+msgid "Type \"confirm\""
+msgstr "Wpisz \"potwierdzam\""
+
+#: includes/admin-pages/main-page.php:206
+msgid "Specify the page slugs used by the plugin. Do not change shortcodes on these pages."
+msgstr "Wskaż slugi stron używanych przez wtyczkę. Nie zmieniaj shortcode na tych stronach."
+
+#: includes/email-sender.php:43
+msgid "All rights reserved."
+msgstr "Wszelkie prawa zastrzeżone."
+
+#: includes/admin-pages/main-page.php:30
+msgid "All records have been deleted."
+msgstr "Wszystkie rekordy zostały usunięte."
+
+#: includes/admin-pages/main-page.php:52
+msgid "All required pages already exist."
+msgstr "Wszystkie wymagane strony już istnieją."
+
+#: includes/admin-menu.php:24
+#: includes/admin-menu.php:25
+msgid "All returns"
+msgstr "Wszystkie zwroty"
+
+#: return-requests-woo.php:174
+msgid "Return Requests for WooCommerce plugin is active!"
+msgstr "Wtyczka Return Requests for WooCommerce jest aktywna!"
+
+#: includes/form-handler.php:557
+msgid "Select products to return:"
+msgstr "Wybierz produkty do zwrotu:"
+
+#: includes/form-handler.php:473
+#: includes/form-handler.php:495
+msgid "Generate new link"
+msgstr "Wygeneruj nowy link"
+
+#: return-requests-woo.php:175
+msgid "Required pages were created automatically. Configure the plugin in a few steps:"
+msgstr "Wymagane strony zostały utworzone automatycznie. Dokonfiguruj wtyczkę w kilku krokach:"
+
+#: includes/form-handler.php:851
+msgid "An error occurred while processing the return:"
+msgstr "Wystąpił błąd podczas przetwarzania zwrotu:"
+
+#: includes/form-handler.php:205
+msgid "A problem occurred while sending the email. Please try again later."
+msgstr "Wystąpił problem podczas wysyłania maila. Spróbuj ponownie później."
+
+#: includes/form-handler.php:202
+msgid "Verification email sent successfully. Please check your inbox."
+msgstr "Wysłanie maila weryfikacyjnego powiodło się. Sprawdź skrzynkę mailową."
+
+#: includes/admin-pages/main-page.php:249
+msgid "Disabled (no validation)"
+msgstr "Wyłączona (brak walidacji)"
+
+#: includes/form-handler.php:79
+msgid "Send verification link"
+msgstr "Wyślij link weryfikacyjny"
+
+#: includes/admin-pages/main-page.php:407
+msgid "Enable Turnstile"
+msgstr "Włącz Turnstile"
+
+#: includes/my-account-integration.php:87
+msgid "Order does not meet return conditions or was manipulated."
+msgstr "Zamówienie nie spełnia warunków zwrotu lub padło ofiarą manipulacji."
+
+#: includes/admin-pages/main-page.php:376
+msgid "Save settings"
+msgstr "Zapisz ustawienia"
+
+#: includes/admin-pages/main-page.php:421
+msgid "Save Turnstile settings"
+msgstr "Zapisz ustawienia Turnstile"
+
+#: includes/admin-pages/main-page.php:257
+msgid "Save pages settings"
+msgstr "Zapisz ustawienia stron"
+
+#: includes/admin-pages/main-page.php:98
+msgid "Data management"
+msgstr "Zarządzanie danymi"
+
+#: includes/my-account-integration.php:27
+msgid "Submit return"
+msgstr "Zgłoś zwrot"
+
+#: includes/my-account-integration.php:16
+msgid "Return"
+msgstr "Zwrot"
+
+#: includes/form-handler.php:144
+#: return-requests-woo.php:386
+msgid "Return for this order has already been registered."
+msgstr "Zwrot dla tego zamówienia został już zarejestrowany."
+
+#: includes/form-handler.php:521
+msgid "Return for this order has already been registered. If you have any questions, please contact customer service."
+msgstr "Zwrot dla tego zamówienia został już zarejestrowany. Jeśli masz pytania, skontaktuj się z obsługą klienta."
+
+#: includes/form-handler.php:520
+msgid "Return already registered"
+msgstr "Zwrot już zarejestrowany"
+
+#: return-requests-woo.php:423
+msgid "Order return"
+msgstr "Zwrot zamówienia"
+
+#: includes/email-sender.php:88
+msgid "Return for order #{order_id}"
+msgstr "Zwrot zamówienia #{order_id}"
+
+#: includes/email-sender.php:97
+msgid "Return for order #{order_id} has been submitted."
+msgstr "Zwrot zamówienia #{order_id} został zgłoszony."
+
+#: includes/admin-pages/main-page.php:475
+#: includes/form-handler.php:865
+msgid "Return registered"
+msgstr "Zwrot został zarejestrowany"
+
+#: includes/form-handler.php:627
+msgid "Return selected items"
+msgstr "Zwróć wybrane przedmioty"
+
+#: includes/admin-pages/main-page.php:371
+msgid "e.g. Store Name&#10;Street 123&#10;00-000 City&#10;Phone number"
+msgstr "np. Nazwa sklepu&#10;Ulica 123&#10;00-000 Miasto&#10;Numer telefonu"
+
+#: includes/admin-pages/main-page.php:315
+msgid "e.g. contact@yourdomain.com"
+msgstr "np. kontakt@twojadomena.pl"
+
+#: includes/form-handler.php:601
+msgid "and"
+msgstr "oraz"
+
+#: includes/form-handler.php:603
+msgid "and accept their provisions. I also commit to returning the selected products at my own expense, under Art. 27 of the Consumer Rights Act of May 30, 2014."
+msgstr "sklepu i akceptuję ich postanowienia. Zobowiązuję się również do zwrotu wybranych produktów na własny koszt, zgodnie z art. 27 ustawy z dnia 30 maja 2014 r. o prawach konsumenta."
+
+#: includes/admin-pages/main-page.php:124
+msgid "The \"Return Requests WooCommerce\" plugin allows customers to submit order return requests in the online store. Guest users can use a form followed by email verification, while logged-in customers can submit returns directly from the \"My Account\" panel. The plugin generates a PDF file with return information and emails it to both the store administrator and the customer. Optional Cloudflare Turnstile protection is implemented to prevent SPAM."
+msgstr "Wtyczka \"Zwroty WooCommerce\" pozwala klientom zgłaszać zwroty zamówień w sklepie internetowym. Niezalogowani użytkownicy mogą skorzystać z formularza, a następnie z weryfikacji mailowej, zalogowani klienci mają możliwość zgłoszenia zwrotu bezpośrednio z panelu \"Moje konto\". Wtyczka generuje plik PDF z informacjami o zwrocie i wysyła go na e-mail zarówno do administratora sklepu, jak i klienta. Opcjonalnie zaimplementowano ochronę Cloudflare Turnstile w celu zapobiegania SPAMowi."
+
+#: includes/admin-pages/main-page.php:133
+msgid "Required for managing orders and customers."
+msgstr "Wymagane do zarządzania zamówieniami i klientami."
+
+#: includes/admin-pages/main-page.php:306
+msgid "e.g. Company / Name"
+msgstr "np. Nazwa firmy / Imię i Nazwisko"
+
+#. Plugin Name of the plugin
+#: return-requests-woo.php
+msgid "Return Requests for WooCommerce"
+msgstr "Return Requests for WooCommerce"
+
+#: includes/admin-pages/list-returns.php:21
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin-pages/list-returns.php:22
+msgid "Order"
+msgstr "Zamówienie"
+
+#: includes/admin-pages/list-returns.php:23
+msgid "Customer"
+msgstr "Klient"
+
+#: includes/admin-pages/list-returns.php:25
+msgid "Bank account"
+msgstr "Konto bankowe"
+
+#: includes/admin-pages/list-returns.php:26
+msgid "Date"
+msgstr "Data"
+
+#: includes/admin-pages/list-returns.php:27
+msgid "Actions"
+msgstr "Akcje"
+
+#: includes/admin-pages/list-returns.php:56
+msgid "Details"
+msgstr "Szczegóły"
+
+#: includes/admin-pages/list-returns.php:72
+msgid "No returns."
+msgstr "Brak zwrotów."
+
+#: includes/admin-menu.php:12
+#: includes/admin-menu.php:13
+msgid "Return Requests"
+msgstr "Return Requests"
+
+#: includes/admin-pages/main-page.php:99
+#: includes/admin-pages/main-page.php:152
+msgid "How does it work?"
+msgstr "Jak to działa?"
+
+#: includes/admin-pages/main-page.php:153
+msgid "This plugin provides a comprehensive native return management workflow for WooCommerce, securely handling returns from both authenticated users and guests."
+msgstr "Ta wtyczka zapewnia kompleksowy, natywny obieg zgłaszania zwrotów dla WooCommerce, bezpiecznie obsługując zgłoszenia zarówno od zalogowanych użytkowników, jak i gości."
+
+#: includes/admin-pages/main-page.php:157
+msgid "1. Initialization and Automated Pages"
+msgstr "1. Inicjalizacja i Automatyczne Strony"
+
+#: includes/admin-pages/main-page.php:158
+msgid "By clicking \"Check and Create Required Pages\" in the Pages tab, three routing pages are created using shortcodes:"
+msgstr "Po kliknięciu \"Utwórz wymagane strony\" w zakładce Strony, tworzone są trzy strony oparte na shortcode'ach:"
+
+#: includes/admin-pages/main-page.php:160
+msgid "Entry point for guest users."
+msgstr "Punkt wejścia dla niezalogowanych użytkowników (gości)."
+
+#: includes/admin-pages/main-page.php:161
+msgid "Select Return Items"
+msgstr "Wybierz przedmioty do zwrotu"
+
+#: includes/admin-pages/main-page.php:161
+msgid "Secure session-gated page where customers select products and input their bank account."
+msgstr "Zabezpieczona sesją strona, na której klienci wybierają produkty i podają numer konta bankowego."
+
+#: includes/admin-pages/main-page.php:162
+msgid "Return Confirmation"
+msgstr "Potwierdzenie zwrotu"
+
+#: includes/admin-pages/main-page.php:162
+msgid "Success page displaying the generated PDF file link."
+msgstr "Strona sukcesu wyświetlająca link do wygenerowanego pliku PDF."
+
+#: includes/admin-pages/main-page.php:165
+msgid "2. The Flow for Logged-In Customers"
+msgstr "2. Proces dla zalogowanych klientów"
+
+#: includes/admin-pages/main-page.php:167
+msgid "A logged-in user visits their \"My Account\" dashboard and navigates to \"Orders\"."
+msgstr "Zalogowany użytkownik wchodzi do swojego panelu \"Moje konto\" i przechodzi do zakładki \"Zamówienia\"."
+
+#: includes/admin-pages/main-page.php:168
+msgid "If an order has the status \"Completed\" and falls within the statutory return window, a \"Return\" button natively appears next to the order."
+msgstr "Jeśli zamówienie ma status \"Zrealizowane\" i mieści się w ustawowym oknie czasowym na zwrot, obok zamówienia pojawia się przycisk \"Zwrot\"."
+
+#: includes/admin-pages/main-page.php:169
+msgid "Once clicked, the plugin generates a secure session token directly on the server without needing an email verification step (since the user identity is already verified by WordPress)."
+msgstr "Po kliknięciu wtyczka generuje bezpieczny token sesji bezpośrednio na serwerze bez konieczności weryfikacji e-mailowej (ponieważ tożsamość użytkownika jest już potwierdzona przez WordPress)."
+
+#: includes/admin-pages/main-page.php:170
+msgid "The user is instantly redirected to the Select Return Items page with their authenticated session active."
+msgstr "Użytkownik jest natychmiast przekierowywany na stronę Wyboru Przedmiotów do Zwrotu z aktywną autoryzowaną sesją."
+
+#: includes/admin-pages/main-page.php:173
+msgid "3. The Flow for Guest Customers (Unregistered)"
+msgstr "3. Proces dla klientów niezalogowanych (Gości)"
+
+#: includes/admin-pages/main-page.php:175
+msgid "A guest user visits the Return Form page."
+msgstr "Niezalogowany użytkownik wchodzi na stronę Formularza Zwrotu."
+
+#: includes/admin-pages/main-page.php:176
+msgid "They input their Order Number and the Billing Email Address associated with that order."
+msgstr "Podaje Numer Zamówienia oraz Adres E-mail Płatnika przypisany do tego zamówienia."
+
+#: includes/admin-pages/main-page.php:177
+msgid "The plugin cross-references the database and generates a cryptographically secure 1-hour Return Token tying their request to that specific order."
+msgstr "Wtyczka sprawdza bazę danych i generuje kryptograficznie bezpieczny, ważny 1 godzinę Token Zwrotu, wiążąc żądanie z tym konkretnym zamówieniem."
+
+#: includes/admin-pages/main-page.php:178
+msgid "An automated email is dispatched to the user containing a one-time verification link."
+msgstr "Do użytkownika wysyłany jest automatyczny e-mail zawierający jednorazowy link weryfikacyjny."
+
+#: includes/admin-pages/main-page.php:179
+msgid "Upon clicking the link, the user's browser establishes an authenticated system session using the token, proving they own the email address. They are then securely redirected to the Select Return Items page."
+msgstr "Po kliknięciu w link, przeglądarka użytkownika nawiązuje autoryzowaną sesję używając tokena, co potwierdza, że jest on właścicielem adresu e-mail. Następnie jest on bezpiecznie przekierowywany na stronę Wyboru Przedmiotów do Zwrotu."
+
+#: includes/admin-pages/main-page.php:182
+msgid "4. Form Submission and PDF Generation"
+msgstr "4. Wysłanie formularza i Generowanie PDF"
+
+#: includes/admin-pages/main-page.php:184
+msgid "Once the user reaches the Select Return Items page, they select the exact items they wish to return and input their bank account number."
+msgstr "Gdy użytkownik znajdzie się na stronie Wyboru Przedmiotów do Zwrotu, wybiera konkretne przedmioty, które chce zwrócić, i podaje numer konta bankowego."
+
+#: includes/admin-pages/main-page.php:185
+msgid "Optionally, a Cloudflare Turnstile gateway protects the form from automated abuse."
+msgstr "Opcjonalnie, formularz jest chroniony przed automatycznym spamem za pomocą zabezpieczenia Cloudflare Turnstile."
+
+#: includes/admin-pages/main-page.php:186
+msgid "Upon clicking \"Return Selected Items\", the request is officially recorded in the custom database table."
+msgstr "Po kliknięciu \"Zwróć wybrane przedmioty\", żądanie zostaje oficjalnie zarejestrowane w dedykowanej tabeli w bazie danych."
+
+#: includes/admin-pages/main-page.php:187
+msgid "The generative engine constructs a Goods Return Protocol PDF, filling it automatically with the store's details, the customer's billing address, and a compliance declaration."
+msgstr "Silnik generujący tworzy plik PDF z Protokołem Zwrotu Towaru, automatycznie uzupełniając go danymi sklepu, adresem płatnika i deklaracją zgodności."
+
+#: includes/admin-pages/main-page.php:188
+msgid "The PDF is saved securely to the server."
+msgstr "Plik PDF jest bezpiecznie zapisywany na serwerze."
+
+#: includes/admin-pages/main-page.php:189
+msgid "Two automated emails are dispatched: A confirmation to the Customer including the attached PDF, and a notification to the Administrator containing the same attached PDF."
+msgstr "Wysyłane są dwa automatyczne e-maile: Potwierdzenie do klienta wraz z załączonym PDF oraz powiadomienie do administratora zawierające ten sam załącznik."
+
+#: includes/admin-pages/main-page.php:190
+msgid "The customer's secure session is flushed and they land on the final Confirmation page."
+msgstr "Bezpieczna sesja klienta zostaje zakończona, a on trafia na ostateczną stronę Potwierdzenia."
+
+#: includes/admin-pages/main-page.php:193
+msgid "5. Email Notifications Overview"
+msgstr "5. Przegląd powiadomień E-mail"
+
+#: includes/admin-pages/main-page.php:195
+msgid "Verification Email (Guest only):"
+msgstr "E-mail weryfikacyjny (Tylko dla gości):"
+
+#: includes/admin-pages/main-page.php:195
+msgid "Sent immediately after a guest submits the initial Return Form to verify their identity via a secure link. E-mail in form needs to match order billing e-mail."
+msgstr "Wysyłany natychmiast po wysłaniu przez gościa wstępnego Formularza Zwrotu, aby zweryfikować jego tożsamość poprzez bezpieczny link. E-mail w formularzu musi być zgodny z e-mailem rozliczeniowym na zamówieniu."
+
+#: includes/admin-pages/main-page.php:196
+msgid "Customer Confirmation:"
+msgstr "Potwierdzenie dla klienta:"
+
+#: includes/admin-pages/main-page.php:196
+msgid "Sent after successfully selecting items and generating the Return Protocol PDF. Contains the PDF as an attachment."
+msgstr "Wysyłany po pomyślnym wybraniu przedmiotów i wygenerowaniu Protokołu Zwrotu PDF. Zawiera wygenerowany plik PDF jako załącznik."
+
+#: includes/admin-pages/main-page.php:197
+msgid "Administrator Notification:"
+msgstr "Powiadomienie dla administratora:"
+
+#: includes/admin-pages/main-page.php:197
+msgid "Sent simultaneously to the store owner alerting them of the return, with the Return Protocol PDF attached."
+msgstr "Wysyłane równocześnie do właściciela sklepu informujące o zwrocie, z załączonym Protokołem Zwrotu PDF."
+
+#: includes/admin-pages/main-page.php:139
+msgid "Support Return Requests"
+msgstr "Wesprzyj Return Requests"
+
+#: includes/admin-pages/main-page.php:141
+msgid "I created Return Requests to give the WordPress community a truly free, native, and bloat-free return management solution. If this plugin saves you time or money, please consider buying me a coffee! It directly helps me maintain the project and develop new features."
+msgstr "Stworzyłem Return Requests, aby dać społeczności WordPressa w pełni darmowe, natywne i bezpieczne rozwiązanie do zarządzania zwrotami. Jeśli ta wtyczka oszczędza Twój czas lub pieniądze, rozważ postawienie mi kawy! Pomaga mi to bezpośrednio w utrzymaniu projektu i rozwijaniu nowych funkcji."
+
+#: includes/admin-pages/main-page.php:144
+msgid "Buy me a coffee"
+msgstr "Postaw mi kawę"
+
+#. Plugin URI of the plugin
+#: return-requests-woo.php
+msgid "https://github.com/jakubmisiak/return-requests-woo"
+msgstr ""
+
+#. Description of the plugin
+#: return-requests-woo.php
+msgid "Comprehensive return management system for WooCommerce. Registers return requests, allows customers to select products and generates PDF with details."
+msgstr "Kompleksowy system zarządzania zwrotami dla WooCommerce. Rejestruje wnioski o zwrot, umożliwia klientom wybór produktów i generuje pliki PDF ze szczegółami."
+
+#. Author of the plugin
+#: return-requests-woo.php
+msgid "Jakub Misiak"
+msgstr ""
+
+#. Author URI of the plugin
+#: return-requests-woo.php
+msgid "https://buymeacoffee.com/jakubmisiak"
+msgstr ""
+
+#: includes/admin-pages/list-returns.php:24
+msgid "Email"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:90
+msgid "Return Requests WooCommerce"
+msgstr ""
+
+#: includes/admin-pages/main-page.php:240
+msgid "Number of days from the date the order was completed within which the customer can submit a return request. Default: 14 days."
+msgstr "Liczba dni od daty zrealizowania zamówienia, w ciągu których klient może złożyć wniosek o zwrot. Domyślnie: 14 dni."
+
+#: return-requests-woo.php:70
+#: return-requests-woo.php:90
+msgid "Unauthorized access."
+msgstr "Nieautoryzowany dostęp."
+
+#: return-requests-woo.php:95
+msgid "Security check failed."
+msgstr "Błąd weryfikacji bezpieczeństwa."
+
+#: return-requests-woo.php:104
+msgid "File not found on server."
+msgstr "Nie znaleziono pliku na serwerze."
+
+#: includes/admin-pages/main-page.php:105
+msgid "Return System Status"
+msgstr "Status systemu zwrotów"
+
+#: includes/admin-pages/main-page.php:113
+#: return-requests-woo.php:77
+msgid "Active"
+msgstr "Aktywny"
+
+#: includes/admin-pages/main-page.php:113
+#: return-requests-woo.php:78
+msgid "Disabled"
+msgstr "Wyłączony"
+
+#: includes/admin-pages/main-page.php:117
+msgid "When disabled, frontend return forms will be visually disabled, the My Account return button will vanish, and backend processing will be entirely rejected. Existing shortcodes will still render."
+msgstr "Gdy ta opcja jest wyłączona, przycisk zwrotu w zakładce Moje Konto zostanie ukryty, formularze zwrotu będą wizualnie wyłączone, a wszystkie żądania backendowe zostaną odrzucone. Strony z przypisanymi shortcode'ami będą nadal działać i informować o wyłączonym systemie."
+
+#: includes/form-handler.php:16
+#: includes/form-handler.php:392
+msgid "The return system is currently disabled. Please try again later or contact support."
+msgstr "System zwrotów jest obecnie wyłączony. Spróbuj ponownie później lub skontaktuj się z obsługą sklepu."
+
+#: includes/form-handler.php:530
+#: includes/form-handler.php:786
+msgid "Missing required contact details: address."
+msgstr "Brak wymaganych danych kontaktowych: adres."
+
+#: includes/my-account-integration.php:67
+msgid "Missing required contact details (address). Please update them in account settings."
+msgstr "Brak wymaganych danych kontaktowych (adres). Uzupełnij je w ustawieniach konta."
+
+#: includes/form-handler.php:578
+msgid "Enter bank account number"
+msgstr "Wpisz numer konta bankowego"
+
+#: includes/form-handler.php:579
+msgid "Please enter your valid bank account number"
+msgstr "Wpisz swój poprawny numer konta bankowego"
+
+#: includes/form-handler.php:726
+msgid "Invalid IBAN format. Please check your international bank account number."
+msgstr "Nieprawidłowy format IBAN. Sprawdź swój międzynarodowy numer konta bankowego."
+
+#: includes/form-handler.php:741
+msgid "Bank account number cannot be empty."
+msgstr "Numer konta bankowego nie może być pusty."
+
+#: includes/form-handler.php:575
+msgid "PL12 3456 7890 1234 5678 9012 3456"
+msgstr "PL12 3456 7890 1234 5678 9012 3456"
+
+#: includes/form-handler.php:576
+msgid "Account number should contain country code and up to 32 alphanumeric characters"
+msgstr "Numer konta powinien zawierać kod kraju i do 32 znaków alfanumerycznych"
+
+#: includes/form-handler.php:582
+msgid "12 3456 7890 1234 5678 9012 3456"
+msgstr "12 3456 7890 1234 5678 9012 3456"
+
+#: includes/form-handler.php:584
+msgid "Account number should contain exactly 26 digits"
+msgstr "Numer konta powinien zawierać dokładnie 26 cyfr"
+
+#: includes/admin-pages/main-page.php
+msgid "Return Confirmation Settings saved."
+msgstr "Ustawienia Potwierdzenia Zwrotu zostały zapisane."
+
+#: includes/admin-pages/main-page.php
+msgid "Return Confirmation Page Settings"
+msgstr "Ustawienia strony Potwierdzenia Zwrotu"
+
+#: includes/admin-pages/main-page.php
+msgid "Configure the company address shown on the Return Confirmation page ([return_confirmation] shortcode). After submitting a return, customers are directed here and shown where to send their package."
+msgstr "Skonfiguruj adres firmy wyświetlany na stronie Potwierdzenia Zwrotu (shortcode [return_confirmation]). Po złożeniu zwrotu klienci są tu kierowani i informowani, gdzie nadać paczkę."
+
+#: includes/admin-pages/main-page.php
+msgid "Company / Store name:"
+msgstr "Nazwa firmy / Sklepu:"
+
+#: includes/admin-pages/main-page.php
+msgid "Street and number:"
+msgstr "Ulica i numer:"
+
+#: includes/admin-pages/main-page.php
+msgid "Postal code and city:"
+msgstr "Kod pocztowy i miasto:"
+
+#: includes/admin-pages/main-page.php
+msgid "Country:"
+msgstr "Kraj:"
+
+#: includes/admin-pages/main-page.php
+msgid "Additional instructions:"
+msgstr "Dodatkowe instrukcje:"
+
+#: includes/admin-pages/main-page.php
+msgid "Optional extra message shown below the address (e.g. packaging instructions)."
+msgstr "Opcjonalna dodatkowa wiadomość wyświetlana pod adresem (np. instrukcje pakowania)."
+
+#: includes/admin-pages/main-page.php
+msgid "Save Return Confirmation settings"
+msgstr "Zapisz ustawienia Potwierdzenia Zwrotu"
+
+#: includes/admin-pages/main-page.php
+msgid "Preview — [return_confirmation] shortcode"
+msgstr "Podgląd — shortcode [return_confirmation]"
+
+#: includes/admin-pages/main-page.php
+msgid "This is how the Return Confirmation page looks in the admin context (without a real return token). The actual page shown to customers will include their order details."
+msgstr "Tak wygląda strona Potwierdzenia Zwrotu w kontekście panelu administracyjnego (bez prawdziwego tokenu zwrotu). Strona realna widoczna dla klientów będzie zawierała dane ich zamówienia."
+
+
+#: includes/admin-pages/main-page.php
+msgid "e.g. My Store Sp. z o.o."
+msgstr "np. Mój Sklep Sp. z o.o."
+
+#: includes/admin-pages/main-page.php
+msgid "e.g. ul. Kwiatowa 12"
+msgstr "np. ul. Kwiatowa 12"
+
+#: includes/admin-pages/main-page.php
+msgid "e.g. 00-001 Warszawa"
+msgstr "np. 00-001 Warszawa"
+
+#: includes/admin-pages/main-page.php
+msgid "e.g. Poland"
+msgstr "np. Polska"
+
+#: includes/admin-pages/main-page.php
+msgid "e.g. Please mark the package as RETURN"
+msgstr "np. Proszę oznacz paczkę jako ZWROT"
+
+#: includes/form-handler.php
+msgid "Return Confirmation — live preview"
+msgstr "Potwierdzenie Zwrotu — podgląd na żywo"
+
+#: includes/form-handler.php
+msgid "On the frontend, this page displays the return summary and the address below after a return is successfully submitted."
+msgstr "Na stronie publicznej ta strona wyświetla podsumowanie zwrotu i adres poniżej po pomyślnym złożeniu zwrotu."
+
+#: includes/form-handler.php
+msgid "Send your package to:"
+msgstr "Wyślij paczkę na adres:"
+
+#: includes/form-handler.php
+msgid "Return confirmation not found or the link has expired."
+msgstr "Potwierdzenie zwrotu nie zostało znalezione lub link wygasł."
+
+#: includes/form-handler.php
+msgid "Start a new return."
+msgstr "Rozpocznij nowy zwrot."
+
+#: includes/form-handler.php
+msgid "Order not found."
+msgstr "Nie znaleziono zamówienia."
+
+#: includes/form-handler.php
+msgid "Return registered successfully"
+msgstr "Zwrot został zarejestrowany pomyślnie"
+
+#: includes/form-handler.php
+msgid "Order summary"
+msgstr "Podsumowanie zamówienia"
+
+
+#: includes/form-handler.php
+msgid "Customer:"
+msgstr "Klient:"
+
+#: includes/form-handler.php
+msgid "Back to My Account"
+msgstr "Wróć do Mojego Konta"
+
+#: includes/admin-pages/main-page.php
+msgid "Plugin pages &amp; shortcodes"
+msgstr "Strony wtyczki i shortcody"
+
+#: includes/admin-pages/main-page.php
+msgid "The plugin uses three pages with dedicated shortcodes. Use \"Check and Create Required Pages\" in the Pages tab to create them automatically, or place the shortcodes manually on any page."
+msgstr "Wtyczka używa trzech stron z dedykowanymi shortcode'ami. Użyj opcji \"Sprawdź i utwórz wymagane strony\" w zakładce Strony, aby je automatycznie utworzyć, lub umieść shortcode'y ręcznie na dowolnej stronie."
+
+#: includes/admin-pages/main-page.php
+msgid "Entry point for guests. Customers enter their order number and billing email to receive a one-time verification link."
+msgstr "Punkt wejścia dla gości. Klienci wpisują numer zamówienia i e-mail płatnika, aby otrzymać jednorazowy link weryfikacyjny."
+
+#: includes/admin-pages/main-page.php
+msgid "Secure session-gated page where customers select products to return and provide their bank account number. Requires a valid session or verification token."
+msgstr "Zabezpieczona sesją strona, na której klienci wybierają produkty do zwrotu i podają numer konta bankowego. Wymaga aktywnej sesji lub tokenu weryfikacyjnego."
+
+#: includes/admin-pages/main-page.php
+msgid "Confirmation page shown after a successful return submission. Displays order summary and the company address where the package should be sent. Configure company address in the Return Confirmation tab."
+msgstr "Strona potwierdzenia wyświetlana po pomyślnym złożeniu zwrotu. Pokazuje podsumowanie zamówienia oraz adres firmy, na który należy nadać paczkę. Adres firmy skonfiguruj w zakładce Potwierdzenia Zwrotu."
+
+#: includes/admin-pages/list-returns.php
+msgid "Download PDF"
+msgstr "Pobierz PDF"
+
+#: includes/admin-pages/list-returns.php
+msgid "Mark as completed"
+msgstr "Oznacz jako zrealizowany"
+
+#: includes/admin-pages/list-returns.php
+msgid "Mark as issue"
+msgstr "Zgłoś problem"
+
+#: includes/admin-pages/main-page.php
+msgid "Note:"
+msgstr "Uwaga:"
+
+#: includes/admin-pages/main-page.php
+msgid "The overall layout and styling of these emails are natively managed by WooCommerce to match your store's theme. You only control the text contents here."
+msgstr "Ogólny wygląd i stylowanie tych e-maili są natywnie zarządzane przez WooCommerce, aby dopasować motyw Twojego sklepu. Tutaj kontrolujesz tylko treść wiadomości."
+
+#: includes/admin-pages/main-page.php
+msgid "Law Compliance"
+msgstr "Zgodność z prawem"
+
+#: includes/admin-pages/main-page.php
+msgid "Compliance Region:"
+msgstr "Region prawny:"
+
+#: includes/admin-pages/main-page.php
+msgid "EU + EEA"
+msgstr "UE + EOG"
+
+#: includes/admin-pages/main-page.php
+msgid "Poland"
+msgstr "Polska"
+
+#: includes/admin-pages/main-page.php
+msgid "United Kingdom"
+msgstr "Wielka Brytania"
+
+#: includes/admin-pages/main-page.php
+msgid "Switzerland"
+msgstr "Szwajcaria"
+
+#: includes/admin-pages/main-page.php
+msgid "Turkey"
+msgstr "Turcja"
+
+#: includes/admin-pages/main-page.php
+msgid "Ukraine / Moldova"
+msgstr "Ukraina / Mołdawia"
+
+#: includes/admin-pages/main-page.php
+msgid "USA"
+msgstr "USA"
+
+#: includes/admin-pages/main-page.php
+msgid "Canada"
+msgstr "Kanada"
+
+#: includes/admin-pages/main-page.php
+msgid "Australia / New Zealand"
+msgstr "Australia / Nowa Zelandia"
+
+#: includes/admin-pages/main-page.php
+msgid "Brazil"
+msgstr "Brazylia"
+
+#: includes/admin-pages/main-page.php
+msgid "Custom"
+msgstr "Niestandardowy"
+
+#: includes/admin-pages/main-page.php
+msgid "Select the appropriate legal framework for the return disclaimer. Based on your selection, specific regulations and return time windows will be shown to users."
+msgstr "Wybierz odpowiednie ramy prawne dla zastrzeżeń dotyczących zwrotów. Na podstawie Twojego wyboru użytkownikom będą wyświetlane konkretne przepisy i okna czasowe zwrotów."
+
+#: includes/admin-pages/main-page.php
+msgid "Custom Disclaimer:"
+msgstr "Niestandardowe zastrzeżenie:"
+
+#: includes/admin-pages/main-page.php
+msgid "Enter your custom legal disclaimer. HTML tags are allowed."
+msgstr "Wpisz własną klauzulę prawną. Dozwolone są tagi HTML."
+
+#: includes/admin-pages/main-page.php
+msgid "Is your store compliant with GDPR regulations?"
+msgstr "Czy Twój sklep jest zgodny z przepisami RODO?"
+
+#: includes/admin-pages/main-page.php
+msgid "If checked, the return form will explicitly state that personal data processing complies with GDPR regulations."
+msgstr "Jeśli zaznaczono, formularz zwrotu będzie wyraźnie informował, że przetwarzanie danych osobowych odbywa się zgodnie z przepisami RODO."
+
+#: includes/admin-pages/main-page.php
+msgid "Save compliance settings"
+msgstr "Zapisz ustawienia zgodności"
+
+#: includes/admin-pages/main-page.php
+msgid "Law compliance settings saved."
+msgstr "Ustawienia zgodności z prawem zostały zapisane."
+
+#: includes/admin-pages/main-page.php
+msgid "1. Configuration and Initialization"
+msgstr "1. Konfiguracja i inicjalizacja"
+
+#: includes/admin-pages/main-page.php
+msgid "System Status"
+msgstr "Status systemu"
+
+#: includes/admin-pages/main-page.php
+msgid "You can disable the system using the toggle in the Information tab while you configure the plugin, and re-enable it when you are ready to launch."
+msgstr "Możesz wyłączyć system za pomocą przełącznika w zakładce Informacje podczas konfiguracji wtyczki i ponownie go włączyć, gdy będziesz gotowy do uruchomienia."
+
+#: includes/admin-pages/main-page.php
+msgid "Automated Pages"
+msgstr "Automatyczne strony"
+
+#: includes/admin-pages/main-page.php
+msgid "By clicking \"Check and Create Required Pages\" in the Pages tab, three routing pages are automatically created using shortcodes (Return Form, Select Return Items, Return Confirmation)."
+msgstr "Po kliknięciu opcji \"Sprawdź i utwórz wymagane strony\" w zakładce Strony, automatycznie tworzone są trzy strony routingowe ze shortcode'ami (Formularz zwrotu, Wybierz przedmioty do zwrotu, Potwierdzenie zwrotu)."
+
+#: includes/admin-pages/main-page.php
+msgid "Tip: These automatically created pages are fully customizable. The generated shortcode must remain on the page, but you can add your own content below or above it as needed."
+msgstr "Wskazówka: Te automatycznie tworzone strony są w pełni konfigurowalne. Wygenerowany shortcode musi pozostać na stronie, ale możesz dodawać własną treść powyżej lub poniżej, zgodnie z potrzebami."
+
+#: includes/admin-pages/main-page.php
+msgid "In the Law Compliance tab, you can select your store's legal region to automatically display the correct consumer protection act disclaimer during the return process. You can also write your own custom legal disclaimer."
+msgstr "W zakładce Zgodność z prawem możesz wybrać region prawny swojego sklepu, aby automatycznie wyświetlać właściwą klauzulę prawną dotyczącą ochrony konsumentów podczas procesu zwrotu. Możesz też wpisać własne niestandardowe zastrzeżenie prawne."
+
+#: includes/admin-pages/main-page.php
+msgid "Localization & Translation"
+msgstr "Lokalizacja i tłumaczenia"
+
+#: includes/admin-pages/main-page.php
+msgid "This plugin is fully translatable on both the frontend and backend. English is the default base language, but Polish (pl_PL) is 100% pre-built out-of-the-box. The plugin automatically grabs your active WordPress language setting to display the proper language if translations exist. Missing translations can be easily added using standard translation plugins like Open World or Loco Translate."
+msgstr "Ta wtyczka jest w pełni przetłumaczalna zarówno na frontendie, jak i backendzie. Angielski jest domyślnym językiem bazowym, ale polski (pl_PL) jest w 100% dostępny od razu po instalacji. Wtyczka automatycznie pobiera aktywne ustawienie języka WordPress, aby wyświetlić właściwy język, jeśli tłumaczenia istnieją. Brakujące tłumaczenia można łatwo dodać za pomocą standardowych wtyczek do tłumaczeń, takich jak Open World lub Loco Translate."
+
+#: includes/admin-pages/main-page.php
+msgid "6. Return Status Management and Order Integration"
+msgstr "6. Zarządzanie statusem zwrotu i integracja z zamówieniami"
+
+#: includes/admin-pages/main-page.php
+msgid "Return List Backend:"
+msgstr "Lista zwrotów (backend):"
+
+#: includes/admin-pages/main-page.php
+msgid "All returns arrive with a \"Pending\" status in the main plugin table. Administrators can use quick action buttons to mark a return as \"Completed\" or flag it as an \"Issue\"."
+msgstr "Wszystkie zwroty trafiają ze statusem \"Oczekujący\" do głównej tabeli wtyczki. Administratorzy mogą używać przycisków szybkich akcji, aby oznaczyć zwrot jako \"Zrealizowany\" lub zgłosić go jako \"Problem\"."
+
+#: includes/admin-pages/main-page.php
+msgid "WooCommerce Order Meta Box:"
+msgstr "Meta Box zamówienia WooCommerce:"
+
+#: includes/admin-pages/main-page.php
+msgid "When viewing a specific order from the WooCommerce interface, a dedicated Meta Box will surface the associated Return. Store owners can alter the status from here natively."
+msgstr "Podczas przeglądania konkretnego zamówienia w interfejsie WooCommerce, dedykowany Meta Box wyświetli powiązany zwrot. Właściciele sklepów mogą natywnie zmieniać status bezpośrednio stąd."
+
+#: includes/admin-pages/main-page.php
+msgid "Issue Resolution Notes:"
+msgstr "Notatki dotyczące rozwiązania problemu:"
+
+#: includes/admin-pages/main-page.php
+msgid "If a return is flagged as an \"Issue\" through the Order Meta Box, an optional explanation box appears. Submitting an explanation dynamically saves it as a Customer Order Note, updating the buyer automatically via WooCommerce's built-in email alerts."
+msgstr "Jeśli zwrot zostanie oznaczony jako \"Problem\" przez Meta Box zamówienia, pojawia się opcjonalne pole wyjaśnienia. Przesłanie wyjaśnienia dynamicznie zapisuje je jako Notatkę w Zamówieniu Klienta, automatycznie aktualizując kupującego za pomocą wbudowanych alertów e-mail WooCommerce."
+
+#: includes/admin-pages/list-returns.php
+msgid "Completed"
+msgstr "Zrealizowany"
+
+#: includes/admin-pages/list-returns.php
+msgid "Issue"
+msgstr "Problem"
+
+#: includes/admin-pages/list-returns.php
+msgid "Pending"
+msgstr "Oczekujący"
+
+#: includes/admin-pages/list-returns.php
+msgid "Delete"
+msgstr "Usuń"
+
+#: includes/admin-pages/list-returns.php
+msgid "Are you sure you want to permanently delete this return record? This action cannot be undone."
+msgstr "Czy na pewno chcesz trwale usunąć ten rekord zwrotu? Tej operacji nie można cofnąć."
+
+
+

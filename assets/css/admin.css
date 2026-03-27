@@ -1,0 +1,215 @@
+/**
+ * Return Requests for WooCommerce — admin panel styles
+ *
+ * Styles extracted from includes/admin-pages/main-page.php.
+ * Loaded only on plugin administration pages.
+ */
+
+.woo-return-admin {
+    max-width: 1200px;
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.woo-return-admin h1 {
+    color: #23282d;
+    font-size: 2.2em;
+    margin-bottom: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid #eee;
+}
+
+.woo-return-admin .card {
+    background: white;
+    border: 1px solid #e2e4e7;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .04);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 1030px;
+}
+
+.woo-return-admin .card h2 {
+    margin-top: 0;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+    color: #23282d;
+}
+
+.woo-return-admin .form-table th {
+    font-weight: 600;
+    width: 200px;
+    vertical-align: top;
+    text-align: left;
+    padding: 20px 10px 20px 0;
+}
+
+.woo-return-admin .form-table td {
+    padding: 15px 10px;
+    vertical-align: middle;
+}
+
+.woo-return-admin input[type="text"],
+.woo-return-admin input[type="email"],
+.woo-return-admin input[type="number"],
+.woo-return-admin textarea,
+.woo-return-admin select {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .07);
+}
+
+.woo-return-admin textarea {
+    min-height: 100px;
+}
+
+.woo-return-admin .button-primary {
+    background: #0073aa;
+    border-color: #0073aa;
+    color: white;
+    padding: 5px 16px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+
+.woo-return-admin .button-primary:hover {
+    background: #006291;
+}
+
+.woo-return-admin .button-secondary {
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    color: #555;
+    padding: 4px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.woo-return-admin .button-secondary:hover {
+    background: #fafafa;
+    border-color: #999;
+}
+
+.woo-return-admin .section-divider {
+    border-bottom: 1px solid #eee;
+    margin: 30px 0;
+}
+
+/* Navigation tabs */
+.woo-return-admin .woo-return-tabs {
+    display: flex;
+    border-bottom: 1px solid #ccd0d4;
+    margin-bottom: 20px;
+}
+
+.woo-return-admin .woo-return-tab {
+    padding: 10px 15px;
+    margin-right: 5px;
+    cursor: pointer;
+    background: #f5f5f5;
+    border: 1px solid #ccd0d4;
+    border-bottom: none;
+    border-radius: 3px 3px 0 0;
+    position: relative;
+    top: 1px;
+    user-select: none;
+}
+
+.woo-return-admin .woo-return-tab.active {
+    background: white;
+    border-bottom: 1px solid white;
+    color: #0073aa;
+    font-weight: 600;
+}
+
+.woo-return-admin .woo-return-tab-content {
+    display: none;
+}
+
+.woo-return-admin .woo-return-tab-content.active {
+    display: block;
+}
+
+/* Danger zone */
+.woo-return-admin .danger-zone {
+    border-color: #dc3232;
+}
+
+.woo-return-admin .danger-zone h2 {
+    color: #dc3232;
+}
+
+/* Toggle Switch Styles */
+.woo-return-switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 24px;
+}
+
+.woo-return-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.woo-return-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 24px;
+}
+
+.woo-return-slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.woo-return-slider {
+    background-color: #46b450;
+}
+
+input:focus+.woo-return-slider {
+    box-shadow: 0 0 1px #46b450;
+}
+
+input:checked+.woo-return-slider:before {
+    transform: translateX(20px);
+}
+
+.toplevel_page_return-requests-woo th:nth-child(8n-7) {
+    width: 20px;
+}
+
+.toplevel_page_return-requests-woo th:nth-child(8n-3) {
+    width: 196px;
+}
+
+.toplevel_page_return-requests-woo th:nth-child(8n-4) {
+    width: 180px;
+}
+
+.widefat td,
+.widefat th {
+    vertical-align: middle;
+}
