@@ -193,9 +193,14 @@ function woo_return_generate_pdf( $order, $first_name = '', $last_name = '', $se
 
     if ( ! file_exists( $pdf_dir ) ) {
         wp_mkdir_p( $pdf_dir );
-        
-        // Protection against file downloads (Apache / LiteSpeed)
+    }
+
+    // Protection against file downloads (Apache / LiteSpeed) and directory listings.
+    // We check it unconditionally to fix instances where the folder was created by an older plugin version without these security files.
+    if ( ! file_exists( $pdf_dir . '/.htaccess' ) ) {
         file_put_contents( $pdf_dir . '/.htaccess', 'deny from all' );
+    }
+    if ( ! file_exists( $pdf_dir . '/index.php' ) ) {
         file_put_contents( $pdf_dir . '/index.php', '<?php // Silence is golden.' );
     }
 

@@ -673,16 +673,18 @@ function woo_return_main_page()
 
 function woo_return_check_and_create_pages()
 {
+    global $wpdb;
+
     $pages = array(
-        'return-form' => array(
+        'form' => array(
             'title' => __('Return Form', 'return-requests-woo'),
             'shortcode' => '[return_form]'
         ),
-        'select-return-items' => array(
+        'items' => array(
             'title' => __('Product Selection Form for Return', 'return-requests-woo'),
             'shortcode' => '[return_items_form]'
         ),
-        'return-confirmed' => array(
+        'confirm' => array(
             'title' => __('Return registered', 'return-requests-woo'),
             'shortcode' => '[return_confirmation]'
         )
@@ -690,9 +692,29 @@ function woo_return_check_and_create_pages()
 
     $created_pages = array();
 
-    foreach ($pages as $slug => $data) {
+    foreach ($pages as $type => $data) {
+        $slug = woo_return_get_slug($type);
         $page = get_page_by_path($slug);
+        
         if (!$page) {
+            // Check if any published page already contains the shortcode
+            // phpcs:ignore WordPress.DB.DirectDatabaseQuery.DirectQuery, WordPress.DB.DirectDatabaseQuery.NoCaching
+            $page_with_shortcode = $wpdb->get_row(
+                $wpdb->prepare(
+                    "SELECT ID, post_name FROM {$wpdb->posts} WHERE post_type = 'page' AND post_status = 'publish' AND post_content LIKE %s LIMIT 1",
+                    '%' . $wpdb->esc_like( $data['shortcode'] ) . '%'
+                )
+            );
+
+            if ($page_with_shortcode) {
+                // Update the slug in settings to match the found page
+                if ($type === 'form') update_option('woo_return_slug_form', $page_with_shortcode->post_name);
+                if ($type === 'items') update_option('woo_return_slug_items', $page_with_shortcode->post_name);
+                if ($type === 'confirm') update_option('woo_return_slug_confirm', $page_with_shortcode->post_name);
+                
+                continue;
+            }
+
             wp_insert_post(array(
                 'post_title' => $data['title'],
                 'post_name' => $slug,

@@ -4,7 +4,7 @@
  * Plugin Name:       Return Requests for WooCommerce
  * Plugin URI:        https://github.com/jakubmisiak/return-requests-woo
  * Description:       Comprehensive return management system for WooCommerce. Registers return requests, allows customers to select products and generates PDF with details.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 5.9
  * Requires PHP:      8.1
  * Requires Plugins:  woocommerce
@@ -21,7 +21,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Plugin constants
-define('WOO_RETURN_VERSION', '1.0.0');
+define('WOO_RETURN_VERSION', '1.0.1');
 define('WOO_RETURN_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('WOO_RETURN_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('WOO_RETURN_TEXT_DOMAIN', 'return-requests-woo');
@@ -138,7 +138,8 @@ function woo_return_activate()
     woo_create_returns_table();
     woo_return_init_encryption_key();
     WooReturn_Security_Logger::create_logs_table();
-    woo_return_check_and_create_pages();
+    
+    // Page creation is no longer automatic. The user can create them manually or via settings.
 
     // Weekly log cleaning schedule
     if (!wp_next_scheduled('woo_return_clean_security_logs')) {
